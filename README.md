@@ -42,8 +42,16 @@ Các khoa, phòng trong trường có nhiều thiết bị chuyên dụng (máy 
 │       ├── ERD/  KienTruc/  ToChuc/
 │       └── GiaoDien/                 21 ảnh chụp màn hình dùng trong báo cáo
 └── TaiLieu/
+    ├── BANG_BIEU.md                  Toàn bộ bảng biểu trong báo cáo (69 bảng + 18 bảng Use Case)
+    ├── DANH_MUC_HINH.md              Đối chiếu Hình 1 - 59 trong báo cáo với file PNG và .drawio
     └── QUY_TAC_NGHIEP_VU.md          21 quy tắc nghiệp vụ, đặc tả lớp và 14 bảng CSDL
 ```
+
+## Đối chiếu với báo cáo Word
+
+- **Hình:** [TaiLieu/DANH_MUC_HINH.md](TaiLieu/DANH_MUC_HINH.md) liệt kê từng hình trong báo cáo kèm đường dẫn tới ảnh PNG và file nguồn draw.io.
+- **Bảng biểu:** [TaiLieu/BANG_BIEU.md](TaiLieu/BANG_BIEU.md) chứa nội dung toàn bộ bảng trong báo cáo, giữ đúng số và tên bảng.
+- **Cơ sở dữ liệu:** cấu trúc 14 bảng (Bảng 49 - 62) và các thủ tục (Bảng 65) được cài đặt trong [database/ENV09_QuanLyTaiSan.sql](database/ENV09_QuanLyTaiSan.sql).
 
 ## Hướng dẫn cài đặt và chạy
 
