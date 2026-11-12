@@ -3,6 +3,7 @@
 **ĐƠN VỊ:** ĐẠI HỌC TÀI NGUYÊN VÀ MÔI TRƯỜNG TP.HCM (HCMUNRE)  
 **SINH VIÊN:** TRẦN NGUYÊN - MSSV: 1250080121 - LỚP: 12_ĐH_CNPM2  
 **GIẢNG VIÊN HƯỚNG DẪN:** ThS. PHẠM TRỌNG HUYNH  
+
 ---
 
 ## MỤC 0: BA QUYẾT ĐỊNH NGHIỆP VỤ CỐT LÕI 
