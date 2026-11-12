@@ -1,0 +1,1508 @@
+<mxfile host="app.diagrams.net" agent="Antigravity OOSD System" pages="7">
+  <diagram id="SEQ_UC05_DangKyTaiSan" name="UC05_DangKyTaiSan">
+    <mxGraphModel dx="1392" dy="712" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="SEQ_UC05_DangKyTaiSan_title" parent="1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=13;fontFamily=Helvetica;fontStyle=1;fontColor=#000000;" value="&lt;font style=&quot;font-size: 15px;&quot;&gt;Biểu đồ tuần tự cho chức năng Đăng ký tài sản nhàn rỗi&amp;nbsp;&lt;/font&gt;" vertex="1">
+          <mxGeometry height="30" width="400" x="290" y="15" as="geometry" />
+        </mxCell>
+        <mxCell id="SEQ_UC05_DangKyTaiSan_act_icon" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;fillColor=#FFFFFF;strokeColor=#000000;strokeWidth=1.5;" value="" vertex="1">
+          <mxGeometry height="50" width="35" x="60" y="55" as="geometry" />
+        </mxCell>
+        <mxCell id="SEQ_UC05_DangKyTaiSan_act_lbl" parent="1" style="text;html=1;align=center;verticalAlign=top;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=10.5;fontFamily=Helvetica;fontColor=#000000;" value="&lt;u&gt;: NhanVien / ThuKho&lt;/u&gt;" vertex="1">
+          <mxGeometry height="25" width="120" x="20" y="108" as="geometry" />
+        </mxCell>
+        <mxCell id="SEQ_UC05_DangKyTaiSan_act_line" edge="1" parent="1" style="endArrow=none;dashed=1;html=1;rounded=0;strokeColor=#000000;strokeWidth=1;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="80" y="133" as="sourcePoint" />
+            <mxPoint x="80" y="690" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SEQ_UC05_DangKyTaiSan_ui_icon" parent="1" style="shape=umlBoundary;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;strokeWidth=1.5;" value="" vertex="1">
+          <mxGeometry height="35" width="45" x="230" y="65" as="geometry" />
+        </mxCell>
+        <mxCell id="SEQ_UC05_DangKyTaiSan_ui_lbl" parent="1" style="text;html=1;align=center;verticalAlign=top;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=10.5;fontFamily=Helvetica;fontColor=#000000;" value="&lt;u&gt;: FrmDangKyTaiSan&lt;/u&gt;" vertex="1">
+          <mxGeometry height="25" width="130" x="190" y="105" as="geometry" />
+        </mxCell>
+        <mxCell id="SEQ_UC05_DangKyTaiSan_ui_line" edge="1" parent="1" style="endArrow=none;dashed=1;html=1;rounded=0;strokeColor=#000000;strokeWidth=1;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="255" y="133" as="sourcePoint" />
+            <mxPoint x="255" y="690" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SEQ_UC05_DangKyTaiSan_srv_icon" parent="1" style="shape=umlControl;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;strokeWidth=1.5;" value="" vertex="1">
+          <mxGeometry height="36" width="38" x="420" y="65" as="geometry" />
+        </mxCell>
+        <mxCell id="SEQ_UC05_DangKyTaiSan_srv_lbl" parent="1" style="text;html=1;align=center;verticalAlign=top;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=10.5;fontFamily=Helvetica;fontColor=#000000;" value="&lt;u&gt;: TaiSanService&lt;/u&gt;" vertex="1">
+          <mxGeometry height="25" width="130" x="375" y="105" as="geometry" />
+        </mxCell>
+        <mxCell id="SEQ_UC05_DangKyTaiSan_srv_line" edge="1" parent="1" style="endArrow=none;dashed=1;html=1;rounded=0;strokeColor=#000000;strokeWidth=1;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="440" y="133" as="sourcePoint" />
+            <mxPoint x="440" y="690" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SEQ_UC05_DangKyTaiSan_e_loai_icon" parent="1" style="shape=umlEntity;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;strokeWidth=1.5;" value="" vertex="1">
+          <mxGeometry height="36" width="38" x="610" y="65" as="geometry" />
+        </mxCell>
+        <mxCell id="SEQ_UC05_DangKyTaiSan_e_loai_lbl" parent="1" style="text;html=1;align=center;verticalAlign=top;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=10.5;fontFamily=Helvetica;fontColor=#000000;" value="&lt;u&gt;: LoaiTaiSan&lt;/u&gt;" vertex="1">
+          <mxGeometry height="25" width="120" x="570" y="105" as="geometry" />
+        </mxCell>
+        <mxCell id="SEQ_UC05_DangKyTaiSan_e_loai_line" edge="1" parent="1" style="endArrow=none;dashed=1;html=1;rounded=0;strokeColor=#000000;strokeWidth=1;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="630" y="133" as="sourcePoint" />
+            <mxPoint x="630" y="690" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SEQ_UC05_DangKyTaiSan_e_ts_icon" parent="1" style="shape=umlEntity;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;strokeWidth=1.5;" value="" vertex="1">
+          <mxGeometry height="36" width="38" x="780" y="65" as="geometry" />
+        </mxCell>
+        <mxCell id="SEQ_UC05_DangKyTaiSan_e_ts_lbl" parent="1" style="text;html=1;align=center;verticalAlign=top;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=10.5;fontFamily=Helvetica;fontColor=#000000;" value="&lt;u&gt;: TaiSan&lt;/u&gt;" vertex="1">
+          <mxGeometry height="25" width="120" x="740" y="105" as="geometry" />
+        </mxCell>
+        <mxCell id="SEQ_UC05_DangKyTaiSan_e_ts_line" edge="1" parent="1" style="endArrow=none;dashed=1;html=1;rounded=0;strokeColor=#000000;strokeWidth=1;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="800" y="133" as="sourcePoint" />
+            <mxPoint x="800" y="690" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SEQ_UC05_DangKyTaiSan_ui_actbar" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;strokeWidth=1;" value="" vertex="1">
+          <mxGeometry height="510" width="10" x="250" y="130" as="geometry" />
+        </mxCell>
+        <mxCell id="SEQ_UC05_DangKyTaiSan_srv_actbar" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;strokeWidth=1;" value="" vertex="1">
+          <mxGeometry height="435" width="10" x="435" y="160" as="geometry" />
+        </mxCell>
+        <mxCell id="SEQ_UC05_DangKyTaiSan_e_loai_actbar" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;strokeWidth=1;" value="" vertex="1">
+          <mxGeometry height="55" width="10" x="625" y="190" as="geometry" />
+        </mxCell>
+        <mxCell id="SEQ_UC05_DangKyTaiSan_e_ts_actbar" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;strokeWidth=1;" value="" vertex="1">
+          <mxGeometry height="105" width="10" x="795" y="415" as="geometry" />
+        </mxCell>
+        <mxCell id="SEQ_UC05_DangKyTaiSan_alt_box" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;strokeWidth=1;" value="" vertex="1">
+          <mxGeometry height="125" width="780" x="180" y="480" as="geometry" />
+        </mxCell>
+        <mxCell id="SEQ_UC05_DangKyTaiSan_alt_tag" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;strokeWidth=1;fontSize=10;fontFamily=Helvetica;align=center;verticalAlign=middle;fontColor=#000000;" value="&lt;b&gt;alt&lt;/b&gt;" vertex="1">
+          <mxGeometry height="18" width="35" x="180" y="480" as="geometry" />
+        </mxCell>
+        <mxCell id="SEQ_UC05_DangKyTaiSan_alt_cond1" parent="1" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=9.5;fontFamily=Helvetica;fontStyle=2;fontColor=#000000;" value="[khong trung seri va du lieu hop le]" vertex="1">
+          <mxGeometry height="20" width="200" x="220" y="480" as="geometry" />
+        </mxCell>
+        <mxCell id="SEQ_UC05_DangKyTaiSan_alt_dash" edge="1" parent="1" style="endArrow=none;dashed=1;html=1;rounded=0;strokeColor=#000000;strokeWidth=1;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="180" y="555" as="sourcePoint" />
+            <mxPoint x="960" y="555" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SEQ_UC05_DangKyTaiSan_alt_cond2" parent="1" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=9.5;fontFamily=Helvetica;fontStyle=2;fontColor=#000000;" value="[trung seri hoac du lieu khong hop le]" vertex="1">
+          <mxGeometry height="20" width="200" x="190" y="557" as="geometry" />
+        </mxCell>
+        <mxCell id="SEQ_UC05_DangKyTaiSan_msg_1" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#000000;strokeWidth=1;fontFamily=Helvetica;fontSize=10;fontColor=#000000;endArrow=block;endFill=1;labelBackgroundColor=#FFFFFF;" value="MoFormDangKy()">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="85" y="140" as="sourcePoint" />
+            <mxPoint x="250" y="140" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SEQ_UC05_DangKyTaiSan_msg_2" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#000000;strokeWidth=1;fontFamily=Helvetica;fontSize=10;fontColor=#000000;endArrow=block;endFill=1;labelBackgroundColor=#FFFFFF;" value="layDanhMucLoai()">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="260" y="170" as="sourcePoint" />
+            <mxPoint x="435" y="170" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SEQ_UC05_DangKyTaiSan_msg_3" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#000000;strokeWidth=1;fontFamily=Helvetica;fontSize=10;fontColor=#000000;endArrow=block;endFill=1;labelBackgroundColor=#FFFFFF;" value="layDanhSachLoai()">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="445" y="200" as="sourcePoint" />
+            <mxPoint x="625" y="200" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SEQ_UC05_DangKyTaiSan_msg_4" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#000000;strokeWidth=1;fontFamily=Helvetica;fontSize=10;fontColor=#000000;endArrow=open;dashed=1;labelBackgroundColor=#FFFFFF;" value="dsLoaiTaiSan">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="625" y="230" as="sourcePoint" />
+            <mxPoint x="445" y="230" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SEQ_UC05_DangKyTaiSan_msg_5" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#000000;strokeWidth=1;fontFamily=Helvetica;fontSize=10;fontColor=#000000;endArrow=open;dashed=1;labelBackgroundColor=#FFFFFF;" value="dsLoaiTaiSan">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="435" y="255" as="sourcePoint" />
+            <mxPoint x="260" y="255" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SEQ_UC05_DangKyTaiSan_msg_6" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#000000;strokeWidth=1;fontFamily=Helvetica;fontSize=10;fontColor=#000000;endArrow=open;dashed=1;labelBackgroundColor=#FFFFFF;" value="Hien thi form dang ky &amp; nap danh muc loai">
+          <mxGeometry relative="1" x="-0.0303" y="-15" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="250" y="285" as="sourcePoint" />
+            <mxPoint x="85" y="285" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SEQ_UC05_DangKyTaiSan_msg_7" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#000000;strokeWidth=1;fontFamily=Helvetica;fontSize=10;fontColor=#000000;endArrow=block;endFill=1;labelBackgroundColor=#FFFFFF;" value="Nhap thong tin tai san, Nhan &quot;Luu&quot;">
+          <mxGeometry relative="1" x="-0.0909" y="-15" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="85" y="325" as="sourcePoint" />
+            <mxPoint x="250" y="325" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SEQ_UC05_DangKyTaiSan_msg_8" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#000000;strokeWidth=1;fontFamily=Helvetica;fontSize=10;fontColor=#000000;endArrow=block;endFill=1;labelBackgroundColor=#FFFFFF;" value="DangKyTaiSan(tenTS, maLoai, soSeri, nguyenGia, viTri)">
+          <mxGeometry relative="1" x="-0.0857" y="10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="260" y="360" as="sourcePoint" />
+            <mxPoint x="435" y="360" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SEQ_UC05_DangKyTaiSan_msg_9" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#000000;strokeWidth=1;fontFamily=Helvetica;fontSize=10;fontColor=#000000;endArrow=block;endFill=1;labelBackgroundColor=#FFFFFF;align=left;" value="Kiem tra du lieu, nguyenGia &gt; 0, namMua &lt;= hienTai">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="468" y="390" />
+              <mxPoint x="468" y="412" />
+            </Array>
+            <mxPoint x="445" y="390" as="sourcePoint" />
+            <mxPoint x="445" y="412" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SEQ_UC05_DangKyTaiSan_msg_10" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#000000;strokeWidth=1;fontFamily=Helvetica;fontSize=10;fontColor=#000000;endArrow=block;endFill=1;labelBackgroundColor=#FFFFFF;" value="kiemTraTrungSeri(soSeri)">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="445" y="425" as="sourcePoint" />
+            <mxPoint x="795" y="425" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SEQ_UC05_DangKyTaiSan_msg_11" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#000000;strokeWidth=1;fontFamily=Helvetica;fontSize=10;fontColor=#000000;endArrow=open;dashed=1;labelBackgroundColor=#FFFFFF;" value="ket qua kiem tra (chua ton tai)">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="795" y="455" as="sourcePoint" />
+            <mxPoint x="445" y="455" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SEQ_UC05_DangKyTaiSan_msg_12" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#000000;strokeWidth=1;fontFamily=Helvetica;fontSize=10;fontColor=#000000;endArrow=block;endFill=1;labelBackgroundColor=#FFFFFF;" value="themTaiSan(maTS, tenTS, seri, ..., &quot;Moi&quot;)">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="445" y="505" as="sourcePoint" />
+            <mxPoint x="795" y="505" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SEQ_UC05_DangKyTaiSan_msg_13" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#000000;strokeWidth=1;fontFamily=Helvetica;fontSize=10;fontColor=#000000;endArrow=open;dashed=1;labelBackgroundColor=#FFFFFF;" value="KetQuaXuLy.Ok(maTS)">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="435" y="535" as="sourcePoint" />
+            <mxPoint x="260" y="535" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SEQ_UC05_DangKyTaiSan_msg_14" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#000000;strokeWidth=1;fontFamily=Helvetica;fontSize=10;fontColor=#000000;endArrow=open;dashed=1;labelBackgroundColor=#FFFFFF;" value="KetQuaXuLy.Fail (rollback)">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="435" y="580" as="sourcePoint" />
+            <mxPoint x="260" y="580" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SEQ_UC05_DangKyTaiSan_msg_15" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#000000;strokeWidth=1;fontFamily=Helvetica;fontSize=10;fontColor=#000000;endArrow=open;dashed=1;labelBackgroundColor=#FFFFFF;" value="Thong bao ket qua dang ky tai san">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="250" y="625" as="sourcePoint" />
+            <mxPoint x="85" y="625" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="SEQ_UC06_TraCuuTaiSan" name="UC06_TraCuuTaiSan">
+    <mxGraphModel dx="1241" dy="635" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="SEQ_UC06_TraCuuTaiSan_title" parent="1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=13;fontFamily=Helvetica;fontStyle=1;fontColor=#000000;" value="&lt;font style=&quot;font-size: 15px;&quot;&gt;Biểu đồ tuần tự cho chức năng Tra cứu tài sản khả dụng&lt;/font&gt;" vertex="1">
+          <mxGeometry height="30" width="400" x="290" y="15" as="geometry" />
+        </mxCell>
+        <mxCell id="SEQ_UC06_TraCuuTaiSan_act_icon" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;fillColor=#FFFFFF;strokeColor=#000000;strokeWidth=1.5;" value="" vertex="1">
+          <mxGeometry height="50" width="35" x="60" y="55" as="geometry" />
+        </mxCell>
+        <mxCell id="SEQ_UC06_TraCuuTaiSan_act_lbl" parent="1" style="text;html=1;align=center;verticalAlign=top;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=10.5;fontFamily=Helvetica;fontColor=#000000;" value="&lt;u&gt;: NhanVien / ThuKho&lt;/u&gt;" vertex="1">
+          <mxGeometry height="25" width="120" x="20" y="108" as="geometry" />
+        </mxCell>
+        <mxCell id="SEQ_UC06_TraCuuTaiSan_act_line" edge="1" parent="1" style="endArrow=none;dashed=1;html=1;rounded=0;strokeColor=#000000;strokeWidth=1;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="80" y="133" as="sourcePoint" />
+            <mxPoint x="80" y="610" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SEQ_UC06_TraCuuTaiSan_ui_icon" parent="1" style="shape=umlBoundary;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;strokeWidth=1.5;" value="" vertex="1">
+          <mxGeometry height="35" width="45" x="240" y="65" as="geometry" />
+        </mxCell>
+        <mxCell id="SEQ_UC06_TraCuuTaiSan_ui_lbl" parent="1" style="text;html=1;align=center;verticalAlign=top;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=10.5;fontFamily=Helvetica;fontColor=#000000;" value="&lt;u&gt;: FrmTraCuuTaiSan&lt;/u&gt;" vertex="1">
+          <mxGeometry height="25" width="130" x="200" y="105" as="geometry" />
+        </mxCell>
+        <mxCell id="SEQ_UC06_TraCuuTaiSan_ui_line" edge="1" parent="1" style="endArrow=none;dashed=1;html=1;rounded=0;strokeColor=#000000;strokeWidth=1;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="265" y="133" as="sourcePoint" />
+            <mxPoint x="265" y="610" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SEQ_UC06_TraCuuTaiSan_srv_icon" parent="1" style="shape=umlControl;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;strokeWidth=1.5;" value="" vertex="1">
+          <mxGeometry height="36" width="38" x="450" y="65" as="geometry" />
+        </mxCell>
+        <mxCell id="SEQ_UC06_TraCuuTaiSan_srv_lbl" parent="1" style="text;html=1;align=center;verticalAlign=top;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=10.5;fontFamily=Helvetica;fontColor=#000000;" value="&lt;u&gt;: TaiSanService&lt;/u&gt;" vertex="1">
+          <mxGeometry height="25" width="130" x="405" y="105" as="geometry" />
+        </mxCell>
+        <mxCell id="SEQ_UC06_TraCuuTaiSan_srv_line" edge="1" parent="1" style="endArrow=none;dashed=1;html=1;rounded=0;strokeColor=#000000;strokeWidth=1;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="470" y="133" as="sourcePoint" />
+            <mxPoint x="470" y="610" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SEQ_UC06_TraCuuTaiSan_e_loai_icon" parent="1" style="shape=umlEntity;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;strokeWidth=1.5;" value="" vertex="1">
+          <mxGeometry height="36" width="38" x="650" y="65" as="geometry" />
+        </mxCell>
+        <mxCell id="SEQ_UC06_TraCuuTaiSan_e_loai_lbl" parent="1" style="text;html=1;align=center;verticalAlign=top;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=10.5;fontFamily=Helvetica;fontColor=#000000;" value="&lt;u&gt;: LoaiTaiSan&lt;/u&gt;" vertex="1">
+          <mxGeometry height="25" width="120" x="610" y="105" as="geometry" />
+        </mxCell>
+        <mxCell id="SEQ_UC06_TraCuuTaiSan_e_loai_line" edge="1" parent="1" style="endArrow=none;dashed=1;html=1;rounded=0;strokeColor=#000000;strokeWidth=1;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="670" y="133" as="sourcePoint" />
+            <mxPoint x="670" y="610" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SEQ_UC06_TraCuuTaiSan_e_ts_icon" parent="1" style="shape=umlEntity;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;strokeWidth=1.5;" value="" vertex="1">
+          <mxGeometry height="36" width="38" x="820" y="65" as="geometry" />
+        </mxCell>
+        <mxCell id="SEQ_UC06_TraCuuTaiSan_e_ts_lbl" parent="1" style="text;html=1;align=center;verticalAlign=top;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=10.5;fontFamily=Helvetica;fontColor=#000000;" value="&lt;u&gt;: TaiSan&lt;/u&gt;" vertex="1">
+          <mxGeometry height="25" width="120" x="780" y="105" as="geometry" />
+        </mxCell>
+        <mxCell id="SEQ_UC06_TraCuuTaiSan_e_ts_line" edge="1" parent="1" style="endArrow=none;dashed=1;html=1;rounded=0;strokeColor=#000000;strokeWidth=1;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="840" y="133" as="sourcePoint" />
+            <mxPoint x="840" y="610" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SEQ_UC06_TraCuuTaiSan_ui_actbar" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;strokeWidth=1;" value="" vertex="1">
+          <mxGeometry height="380" width="10" x="260" y="130" as="geometry" />
+        </mxCell>
+        <mxCell id="SEQ_UC06_TraCuuTaiSan_srv_actbar" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;strokeWidth=1;" value="" vertex="1">
+          <mxGeometry height="315" width="10" x="465" y="160" as="geometry" />
+        </mxCell>
+        <mxCell id="SEQ_UC06_TraCuuTaiSan_e_ts_actbar" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;strokeWidth=1;" value="" vertex="1">
+          <mxGeometry height="255" width="10" x="835" y="190" as="geometry" />
+        </mxCell>
+        <mxCell id="SEQ_UC06_TraCuuTaiSan_msg_1" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#000000;strokeWidth=1;fontFamily=Helvetica;fontSize=10;fontColor=#000000;endArrow=block;endFill=1;labelBackgroundColor=#FFFFFF;" value="Chon chuc nang &quot;Tra cuu tai san kha dung&quot;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="85" y="140" as="sourcePoint" />
+            <mxPoint x="260" y="140" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SEQ_UC06_TraCuuTaiSan_msg_2" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#000000;strokeWidth=1;fontFamily=Helvetica;fontSize=10;fontColor=#000000;endArrow=block;endFill=1;labelBackgroundColor=#FFFFFF;" value="layDanhSachTaiSanKhaDung()">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="270" y="170" as="sourcePoint" />
+            <mxPoint x="465" y="170" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SEQ_UC06_TraCuuTaiSan_msg_3" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#000000;strokeWidth=1;fontFamily=Helvetica;fontSize=10;fontColor=#000000;endArrow=block;endFill=1;labelBackgroundColor=#FFFFFF;" value="layDsTheoTrangThai(&quot;San sang chia se&quot;)">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="475" y="200" as="sourcePoint" />
+            <mxPoint x="835" y="200" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SEQ_UC06_TraCuuTaiSan_msg_4" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#000000;strokeWidth=1;fontFamily=Helvetica;fontSize=10;fontColor=#000000;endArrow=open;dashed=1;labelBackgroundColor=#FFFFFF;" value="dsTaiSanMacDinh">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="835" y="230" as="sourcePoint" />
+            <mxPoint x="475" y="230" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SEQ_UC06_TraCuuTaiSan_msg_5" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#000000;strokeWidth=1;fontFamily=Helvetica;fontSize=10;fontColor=#000000;endArrow=open;dashed=1;labelBackgroundColor=#FFFFFF;" value="dsTaiSanMacDinh">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="465" y="255" as="sourcePoint" />
+            <mxPoint x="270" y="255" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SEQ_UC06_TraCuuTaiSan_msg_6" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#000000;strokeWidth=1;fontFamily=Helvetica;fontSize=10;fontColor=#000000;endArrow=open;dashed=1;labelBackgroundColor=#FFFFFF;" value="Hien thi giao dien tra cuu &amp; danh sach thiet bi">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="260" y="285" as="sourcePoint" />
+            <mxPoint x="85" y="285" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SEQ_UC06_TraCuuTaiSan_msg_7" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#000000;strokeWidth=1;fontFamily=Helvetica;fontSize=10;fontColor=#000000;endArrow=block;endFill=1;labelBackgroundColor=#FFFFFF;" value="Chon tieu chi loc (Loai, Don vi, Tu khoa); Nhan &quot;Tim kiem&quot;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="85" y="325" as="sourcePoint" />
+            <mxPoint x="260" y="325" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SEQ_UC06_TraCuuTaiSan_msg_8" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#000000;strokeWidth=1;fontFamily=Helvetica;fontSize=10;fontColor=#000000;endArrow=block;endFill=1;labelBackgroundColor=#FFFFFF;" value="TimKiemTaiSan(maLoai, tuKhoa, maDonVi)">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="270" y="360" as="sourcePoint" />
+            <mxPoint x="465" y="360" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SEQ_UC06_TraCuuTaiSan_msg_9" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#000000;strokeWidth=1;fontFamily=Helvetica;fontSize=10;fontColor=#000000;endArrow=block;endFill=1;labelBackgroundColor=#FFFFFF;" value="timKiemTheoBoLoc(maLoai, tuKhoa, &quot;San sang chia se&quot;)">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="475" y="395" as="sourcePoint" />
+            <mxPoint x="835" y="395" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SEQ_UC06_TraCuuTaiSan_msg_10" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#000000;strokeWidth=1;fontFamily=Helvetica;fontSize=10;fontColor=#000000;endArrow=open;dashed=1;labelBackgroundColor=#FFFFFF;" value="dsKetQuaLoc">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="835" y="430" as="sourcePoint" />
+            <mxPoint x="475" y="430" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SEQ_UC06_TraCuuTaiSan_msg_11" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#000000;strokeWidth=1;fontFamily=Helvetica;fontSize=10;fontColor=#000000;endArrow=open;dashed=1;labelBackgroundColor=#FFFFFF;" value="bangKetQuaLoc">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="465" y="460" as="sourcePoint" />
+            <mxPoint x="270" y="460" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SEQ_UC06_TraCuuTaiSan_msg_12" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#000000;strokeWidth=1;fontFamily=Helvetica;fontSize=10;fontColor=#000000;endArrow=open;dashed=1;labelBackgroundColor=#FFFFFF;" value="Hien thi dgvKetQua &amp; thong tin chi tiet tai san">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="260" y="495" as="sourcePoint" />
+            <mxPoint x="85" y="495" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="SEQ_UC08_LapYeuCauMuon" name="UC08_LapYeuCauMuon">
+    <mxGraphModel dx="1392" dy="712" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="SEQ_UC08_LapYeuCauMuon_title" parent="1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=13;fontFamily=Helvetica;fontStyle=1;fontColor=#000000;" value="&lt;font style=&quot;font-size: 15px;&quot;&gt;Biểu đồ tuần tự cho chức năng Lập yêu cầu mượn tài sản&amp;nbsp;&lt;/font&gt;" vertex="1">
+          <mxGeometry height="30" width="410" x="285" y="15" as="geometry" />
+        </mxCell>
+        <mxCell id="SEQ_UC08_LapYeuCauMuon_act_icon" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;fillColor=#FFFFFF;strokeColor=#000000;strokeWidth=1.5;" value="" vertex="1">
+          <mxGeometry height="50" width="35" x="62.5" y="45" as="geometry" />
+        </mxCell>
+        <mxCell id="SEQ_UC08_LapYeuCauMuon_act_lbl" parent="1" style="text;html=1;align=center;verticalAlign=top;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=10.5;fontFamily=Helvetica;fontColor=#000000;" value="&lt;u&gt;: NhanVien muon&lt;/u&gt;" vertex="1">
+          <mxGeometry height="25" width="120" x="20" y="100" as="geometry" />
+        </mxCell>
+        <mxCell id="SEQ_UC08_LapYeuCauMuon_act_line" edge="1" parent="1" style="endArrow=none;dashed=1;html=1;rounded=0;strokeColor=#000000;strokeWidth=1;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="80" y="133" as="sourcePoint" />
+            <mxPoint x="80" y="690" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SEQ_UC08_LapYeuCauMuon_ui_icon" parent="1" style="shape=umlBoundary;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;strokeWidth=1.5;" value="" vertex="1">
+          <mxGeometry height="35" width="45" x="232.5" y="62.5" as="geometry" />
+        </mxCell>
+        <mxCell id="SEQ_UC08_LapYeuCauMuon_ui_lbl" parent="1" style="text;html=1;align=center;verticalAlign=top;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=10.5;fontFamily=Helvetica;fontColor=#000000;" value="&lt;u&gt;: FrmLapPhieuMuon&lt;/u&gt;" vertex="1">
+          <mxGeometry height="25" width="130" x="190" y="101" as="geometry" />
+        </mxCell>
+        <mxCell id="SEQ_UC08_LapYeuCauMuon_ui_line" edge="1" parent="1" style="endArrow=none;dashed=1;html=1;rounded=0;strokeColor=#000000;strokeWidth=1;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="255" y="133" as="sourcePoint" />
+            <mxPoint x="255" y="690" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SEQ_UC08_LapYeuCauMuon_srv_icon" parent="1" style="shape=umlControl;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;strokeWidth=1.5;" value="" vertex="1">
+          <mxGeometry height="36" width="38" x="420" y="65" as="geometry" />
+        </mxCell>
+        <mxCell id="SEQ_UC08_LapYeuCauMuon_srv_lbl" parent="1" style="text;html=1;align=center;verticalAlign=top;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=10.5;fontFamily=Helvetica;fontColor=#000000;" value="&lt;u&gt;: MuonTraService&lt;/u&gt;" vertex="1">
+          <mxGeometry height="25" width="130" x="375" y="105" as="geometry" />
+        </mxCell>
+        <mxCell id="SEQ_UC08_LapYeuCauMuon_srv_line" edge="1" parent="1" style="endArrow=none;dashed=1;html=1;rounded=0;strokeColor=#000000;strokeWidth=1;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="440" y="133" as="sourcePoint" />
+            <mxPoint x="440" y="690" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SEQ_UC08_LapYeuCauMuon_e_ts_icon" parent="1" style="shape=umlEntity;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;strokeWidth=1.5;" value="" vertex="1">
+          <mxGeometry height="36" width="38" x="610" y="65" as="geometry" />
+        </mxCell>
+        <mxCell id="SEQ_UC08_LapYeuCauMuon_e_ts_lbl" parent="1" style="text;html=1;align=center;verticalAlign=top;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=10.5;fontFamily=Helvetica;fontColor=#000000;" value="&lt;u&gt;: TaiSan&lt;/u&gt;" vertex="1">
+          <mxGeometry height="25" width="120" x="570" y="105" as="geometry" />
+        </mxCell>
+        <mxCell id="SEQ_UC08_LapYeuCauMuon_e_ts_line" edge="1" parent="1" style="endArrow=none;dashed=1;html=1;rounded=0;strokeColor=#000000;strokeWidth=1;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="630" y="133" as="sourcePoint" />
+            <mxPoint x="630" y="690" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SEQ_UC08_LapYeuCauMuon_e_pm_icon" parent="1" style="shape=umlEntity;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;strokeWidth=1.5;" value="" vertex="1">
+          <mxGeometry height="36" width="38" x="780" y="65" as="geometry" />
+        </mxCell>
+        <mxCell id="SEQ_UC08_LapYeuCauMuon_e_pm_lbl" parent="1" style="text;html=1;align=center;verticalAlign=top;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=10.5;fontFamily=Helvetica;fontColor=#000000;" value="&lt;u&gt;: PhieuMuon&lt;/u&gt;" vertex="1">
+          <mxGeometry height="25" width="120" x="740" y="105" as="geometry" />
+        </mxCell>
+        <mxCell id="SEQ_UC08_LapYeuCauMuon_e_pm_line" edge="1" parent="1" style="endArrow=none;dashed=1;html=1;rounded=0;strokeColor=#000000;strokeWidth=1;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="800" y="133" as="sourcePoint" />
+            <mxPoint x="800" y="690" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SEQ_UC08_LapYeuCauMuon_ui_actbar" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;strokeWidth=1;" value="" vertex="1">
+          <mxGeometry height="490" width="10" x="250" y="130" as="geometry" />
+        </mxCell>
+        <mxCell id="SEQ_UC08_LapYeuCauMuon_srv_actbar" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;strokeWidth=1;" value="" vertex="1">
+          <mxGeometry height="330" width="10" x="435" y="235" as="geometry" />
+        </mxCell>
+        <mxCell id="SEQ_UC08_LapYeuCauMuon_e_ts_actbar" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;strokeWidth=1;" value="" vertex="1">
+          <mxGeometry height="55" width="10" x="625" y="300" as="geometry" />
+        </mxCell>
+        <mxCell id="SEQ_UC08_LapYeuCauMuon_e_pm_actbar" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;strokeWidth=1;" value="" vertex="1">
+          <mxGeometry height="115" width="10" x="795" y="365" as="geometry" />
+        </mxCell>
+        <mxCell id="SEQ_UC08_LapYeuCauMuon_alt_box" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;strokeWidth=1;" value="" vertex="1">
+          <mxGeometry height="140" width="780" x="180" y="435" as="geometry" />
+        </mxCell>
+        <mxCell id="SEQ_UC08_LapYeuCauMuon_alt_tag" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;strokeWidth=1;fontSize=10;fontFamily=Helvetica;align=center;verticalAlign=middle;fontColor=#000000;" value="&lt;b&gt;alt&lt;/b&gt;" vertex="1">
+          <mxGeometry height="18" width="35" x="180" y="435" as="geometry" />
+        </mxCell>
+        <mxCell id="SEQ_UC08_LapYeuCauMuon_alt_cond1" parent="1" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=9.5;fontFamily=Helvetica;fontStyle=2;fontColor=#000000;" value="[thoa BR02, BR03, BR05, BR13]" vertex="1">
+          <mxGeometry height="20" width="200" x="220" y="435" as="geometry" />
+        </mxCell>
+        <mxCell id="SEQ_UC08_LapYeuCauMuon_alt_dash" edge="1" parent="1" style="endArrow=none;dashed=1;html=1;rounded=0;strokeColor=#000000;strokeWidth=1;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="180" y="525" as="sourcePoint" />
+            <mxPoint x="960" y="525" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SEQ_UC08_LapYeuCauMuon_alt_cond2" parent="1" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=9.5;fontFamily=Helvetica;fontStyle=2;fontColor=#000000;" value="[vi pham dieu kien muon]" vertex="1">
+          <mxGeometry height="20" width="200" x="190" y="527" as="geometry" />
+        </mxCell>
+        <mxCell id="SEQ_UC08_LapYeuCauMuon_msg_1" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#000000;strokeWidth=1;fontFamily=Helvetica;fontSize=10;fontColor=#000000;endArrow=block;endFill=1;labelBackgroundColor=#FFFFFF;" value="Nhan &quot;Lap yeu cau muon&quot;, chon mot hoac nhieu thiet bi">
+          <mxGeometry relative="1" x="-0.0909" y="10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="85" y="140" as="sourcePoint" />
+            <mxPoint x="250" y="140" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SEQ_UC08_LapYeuCauMuon_msg_2" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#000000;strokeWidth=1;fontFamily=Helvetica;fontSize=10;fontColor=#000000;endArrow=open;dashed=1;labelBackgroundColor=#FFFFFF;" value="Hien thi form dang ky muon (tu dien thong tin)">
+          <mxGeometry relative="1" x="0.0909" y="-10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="250" y="170" as="sourcePoint" />
+            <mxPoint x="85" y="170" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SEQ_UC08_LapYeuCauMuon_msg_3" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#000000;strokeWidth=1;fontFamily=Helvetica;fontSize=10;fontColor=#000000;endArrow=block;endFill=1;labelBackgroundColor=#FFFFFF;" value="Nhap ngay muon, ngay hen tra, muc dich; Nhan &quot;Gui yeu cau&quot;">
+          <mxGeometry relative="1" x="0.0303" y="10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="85" y="210" as="sourcePoint" />
+            <mxPoint x="250" y="210" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SEQ_UC08_LapYeuCauMuon_msg_4" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#000000;strokeWidth=1;fontFamily=Helvetica;fontSize=10;fontColor=#000000;endArrow=block;endFill=1;labelBackgroundColor=#FFFFFF;" value="TaoYeuCauMuon(maNV, dsMaTS, ngayMuon, ngayTra, mucDich)">
+          <mxGeometry relative="1" x="-0.0857" y="15" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="260" y="245" as="sourcePoint" />
+            <mxPoint x="435" y="245" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SEQ_UC08_LapYeuCauMuon_msg_5" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#000000;strokeWidth=1;fontFamily=Helvetica;fontSize=10;fontColor=#000000;endArrow=block;endFill=1;labelBackgroundColor=#FFFFFF;align=left;" value="Kiem tra du lieu, ngayTra &gt;= ngayMuon, soNgay &lt;= 30">
+          <mxGeometry relative="1" x="-0.0204" y="2" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="468" y="260" />
+              <mxPoint x="468" y="282" />
+            </Array>
+            <mxPoint x="445" y="260" as="sourcePoint" />
+            <mxPoint x="445" y="282" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SEQ_UC08_LapYeuCauMuon_msg_6" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#000000;strokeWidth=1;fontFamily=Helvetica;fontSize=10;fontColor=#000000;endArrow=block;endFill=1;labelBackgroundColor=#FFFFFF;" value="kiemTraKhaDung(dsMaTS, maDonViNguoiMuon)">
+          <mxGeometry relative="1" x="-0.0556" y="10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="445" y="310" as="sourcePoint" />
+            <mxPoint x="625" y="310" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SEQ_UC08_LapYeuCauMuon_msg_7" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#000000;strokeWidth=1;fontFamily=Helvetica;fontSize=10;fontColor=#000000;endArrow=open;dashed=1;labelBackgroundColor=#FFFFFF;" value="TrangThai = &quot;San sang chia se&quot;, khong trung don vi">
+          <mxGeometry relative="1" x="0.0556" y="-10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="625" y="340" as="sourcePoint" />
+            <mxPoint x="445" y="340" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SEQ_UC08_LapYeuCauMuon_msg_8" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#000000;strokeWidth=1;fontFamily=Helvetica;fontSize=10;fontColor=#000000;endArrow=block;endFill=1;labelBackgroundColor=#FFFFFF;" value="kiemTraHanNgach(maPBMuon) [BR13]">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="445" y="375" as="sourcePoint" />
+            <mxPoint x="795" y="375" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SEQ_UC08_LapYeuCauMuon_msg_9" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#000000;strokeWidth=1;fontFamily=Helvetica;fontSize=10;fontColor=#000000;endArrow=open;dashed=1;labelBackgroundColor=#FFFFFF;" value="ket qua kiem tra han ngach">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="795" y="405" as="sourcePoint" />
+            <mxPoint x="445" y="405" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SEQ_UC08_LapYeuCauMuon_msg_10" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#000000;strokeWidth=1;fontFamily=Helvetica;fontSize=10;fontColor=#000000;endArrow=block;endFill=1;labelBackgroundColor=#FFFFFF;" value="themPhieuMuon(maPM, maNV, dsMaTS, ..., &quot;Cho duyet&quot;)">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="445" y="465" as="sourcePoint" />
+            <mxPoint x="795" y="465" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SEQ_UC08_LapYeuCauMuon_msg_11" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#000000;strokeWidth=1;fontFamily=Helvetica;fontSize=10;fontColor=#000000;endArrow=open;dashed=1;labelBackgroundColor=#FFFFFF;" value="KetQuaXuLy.Ok(maPM)">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="435" y="495" as="sourcePoint" />
+            <mxPoint x="260" y="495" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SEQ_UC08_LapYeuCauMuon_msg_12" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#000000;strokeWidth=1;fontFamily=Helvetica;fontSize=10;fontColor=#000000;endArrow=open;dashed=1;labelBackgroundColor=#FFFFFF;" value="KetQuaXuLy.Fail (rollback)">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="435" y="550" as="sourcePoint" />
+            <mxPoint x="260" y="550" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SEQ_UC08_LapYeuCauMuon_msg_13" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#000000;strokeWidth=1;fontFamily=Helvetica;fontSize=10;fontColor=#000000;endArrow=open;dashed=1;labelBackgroundColor=#FFFFFF;" value="Thong bao ket qua lap phieu muon (kem ma PM)">
+          <mxGeometry relative="1" x="0.0909" y="-15" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="250" y="605" as="sourcePoint" />
+            <mxPoint x="85" y="605" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="SEQ_UC09_XetDuyetYeuCauMuon" name="UC09_XetDuyetMuon">
+    <mxGraphModel dx="1373" dy="703" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="SEQ_UC09_XetDuyetYeuCauMuon_srv_line" edge="1" parent="1" style="endArrow=none;dashed=1;html=1;rounded=0;strokeColor=#000000;strokeWidth=1;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="440" y="133" as="sourcePoint" />
+            <mxPoint x="440" y="680" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1EcrIaHR_5etAozND29G-3" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;strokeWidth=1;" value="" vertex="1">
+          <mxGeometry height="170" width="10" x="434" y="415" as="geometry" />
+        </mxCell>
+        <mxCell id="1EcrIaHR_5etAozND29G-2" edge="1" parent="1" style="endArrow=none;dashed=1;html=1;rounded=0;strokeColor=#000000;strokeWidth=1;" target="1EcrIaHR_5etAozND29G-1" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="255" y="133" as="sourcePoint" />
+            <mxPoint x="255" y="680" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SEQ_UC09_XetDuyetYeuCauMuon_ui_actbar" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;strokeWidth=1;" value="" vertex="1">
+          <mxGeometry height="220" width="10" x="250" y="130" as="geometry" />
+        </mxCell>
+        <mxCell id="1EcrIaHR_5etAozND29G-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;strokeWidth=1;" value="" vertex="1">
+          <mxGeometry height="230" width="10" x="250" y="380" as="geometry" />
+        </mxCell>
+        <mxCell id="SEQ_UC09_XetDuyetYeuCauMuon_title" parent="1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=13;fontFamily=Helvetica;fontStyle=1;fontColor=#000000;" value="&lt;font style=&quot;font-size: 15px;&quot;&gt;Biểu đồ tuần tự cho chức năng Xét duyệt yêu cầu mượn&lt;/font&gt;" vertex="1">
+          <mxGeometry height="30" width="400" x="290" y="15" as="geometry" />
+        </mxCell>
+        <mxCell id="SEQ_UC09_XetDuyetYeuCauMuon_act_icon" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;fillColor=#FFFFFF;strokeColor=#000000;strokeWidth=1.5;" value="" vertex="1">
+          <mxGeometry height="50" width="35" x="60" y="55" as="geometry" />
+        </mxCell>
+        <mxCell id="SEQ_UC09_XetDuyetYeuCauMuon_act_lbl" parent="1" style="text;html=1;align=center;verticalAlign=top;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=10.5;fontFamily=Helvetica;fontColor=#000000;" value="&lt;u&gt;: ThuKho&lt;/u&gt;" vertex="1">
+          <mxGeometry height="25" width="120" x="20" y="108" as="geometry" />
+        </mxCell>
+        <mxCell id="SEQ_UC09_XetDuyetYeuCauMuon_act_line" edge="1" parent="1" style="endArrow=none;dashed=1;html=1;rounded=0;strokeColor=#000000;strokeWidth=1;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="80" y="133" as="sourcePoint" />
+            <mxPoint x="80" y="680" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SEQ_UC09_XetDuyetYeuCauMuon_ui_icon" parent="1" style="shape=umlBoundary;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;strokeWidth=1.5;" value="" vertex="1">
+          <mxGeometry height="35" width="45" x="230" y="65" as="geometry" />
+        </mxCell>
+        <mxCell id="SEQ_UC09_XetDuyetYeuCauMuon_ui_lbl" parent="1" style="text;html=1;align=center;verticalAlign=top;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=10.5;fontFamily=Helvetica;fontColor=#000000;" value="&lt;u&gt;: FrmXetDuyetMuon&lt;/u&gt;" vertex="1">
+          <mxGeometry height="25" width="130" x="190" y="105" as="geometry" />
+        </mxCell>
+        <mxCell id="SEQ_UC09_XetDuyetYeuCauMuon_ui_line" edge="1" parent="1" source="1EcrIaHR_5etAozND29G-1" style="endArrow=none;dashed=1;html=1;rounded=0;strokeColor=#000000;strokeWidth=1;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="255" y="133" as="sourcePoint" />
+            <mxPoint x="255" y="680" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SEQ_UC09_XetDuyetYeuCauMuon_srv_icon" parent="1" style="shape=umlControl;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;strokeWidth=1.5;" value="" vertex="1">
+          <mxGeometry height="36" width="38" x="420" y="65" as="geometry" />
+        </mxCell>
+        <mxCell id="SEQ_UC09_XetDuyetYeuCauMuon_srv_lbl" parent="1" style="text;html=1;align=center;verticalAlign=top;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=10.5;fontFamily=Helvetica;fontColor=#000000;" value="&lt;u&gt;: MuonTraService&lt;/u&gt;" vertex="1">
+          <mxGeometry height="25" width="130" x="375" y="105" as="geometry" />
+        </mxCell>
+        <mxCell id="SEQ_UC09_XetDuyetYeuCauMuon_e_pm_icon" parent="1" style="shape=umlEntity;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;strokeWidth=1.5;" value="" vertex="1">
+          <mxGeometry height="36" width="38" x="610" y="65" as="geometry" />
+        </mxCell>
+        <mxCell id="SEQ_UC09_XetDuyetYeuCauMuon_e_pm_lbl" parent="1" style="text;html=1;align=center;verticalAlign=top;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=10.5;fontFamily=Helvetica;fontColor=#000000;" value="&lt;u&gt;: PhieuMuon&lt;/u&gt;" vertex="1">
+          <mxGeometry height="25" width="120" x="570" y="105" as="geometry" />
+        </mxCell>
+        <mxCell id="SEQ_UC09_XetDuyetYeuCauMuon_e_pm_line" edge="1" parent="1" style="endArrow=none;dashed=1;html=1;rounded=0;strokeColor=#000000;strokeWidth=1;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="630" y="133" as="sourcePoint" />
+            <mxPoint x="630" y="680" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SEQ_UC09_XetDuyetYeuCauMuon_e_ts_icon" parent="1" style="shape=umlEntity;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;strokeWidth=1.5;" value="" vertex="1">
+          <mxGeometry height="36" width="38" x="780" y="65" as="geometry" />
+        </mxCell>
+        <mxCell id="SEQ_UC09_XetDuyetYeuCauMuon_e_ts_lbl" parent="1" style="text;html=1;align=center;verticalAlign=top;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=10.5;fontFamily=Helvetica;fontColor=#000000;" value="&lt;u&gt;: TaiSan&lt;/u&gt;" vertex="1">
+          <mxGeometry height="25" width="120" x="740" y="105" as="geometry" />
+        </mxCell>
+        <mxCell id="SEQ_UC09_XetDuyetYeuCauMuon_e_ts_line" edge="1" parent="1" style="endArrow=none;dashed=1;html=1;rounded=0;strokeColor=#000000;strokeWidth=1;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="800" y="133" as="sourcePoint" />
+            <mxPoint x="800" y="680" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SEQ_UC09_XetDuyetYeuCauMuon_srv_actbar" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;strokeWidth=1;" value="" vertex="1">
+          <mxGeometry height="170" width="10" x="435" y="160" as="geometry" />
+        </mxCell>
+        <mxCell id="SEQ_UC09_XetDuyetYeuCauMuon_e_pm_actbar" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;strokeWidth=1;" value="" vertex="1">
+          <mxGeometry height="50" width="10" x="625" y="190" as="geometry" />
+        </mxCell>
+        <mxCell id="SEQ_UC09_XetDuyetYeuCauMuon_e_ts_actbar" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;strokeWidth=1;" value="" vertex="1">
+          <mxGeometry height="50" width="10" x="795" y="250" as="geometry" />
+        </mxCell>
+        <mxCell id="SEQ_UC09_XetDuyetYeuCauMuon_alt_box" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;strokeWidth=1;" value="" vertex="1">
+          <mxGeometry height="135" width="780" x="180" y="450" as="geometry" />
+        </mxCell>
+        <mxCell id="SEQ_UC09_XetDuyetYeuCauMuon_alt_tag" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;strokeWidth=1;fontSize=10;fontFamily=Helvetica;align=center;verticalAlign=middle;fontColor=#000000;" value="&lt;b&gt;alt&lt;/b&gt;" vertex="1">
+          <mxGeometry height="18" width="35" x="180" y="450" as="geometry" />
+        </mxCell>
+        <mxCell id="SEQ_UC09_XetDuyetYeuCauMuon_alt_cond1" parent="1" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=9.5;fontFamily=Helvetica;fontStyle=2;fontColor=#000000;" value="[quyet dinh = &quot;Phe duyet&quot;]" vertex="1">
+          <mxGeometry height="20" width="200" x="220" y="450" as="geometry" />
+        </mxCell>
+        <mxCell id="SEQ_UC09_XetDuyetYeuCauMuon_alt_dash" edge="1" parent="1" style="endArrow=none;dashed=1;html=1;rounded=0;strokeColor=#000000;strokeWidth=1;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="180" y="535" as="sourcePoint" />
+            <mxPoint x="960" y="535" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SEQ_UC09_XetDuyetYeuCauMuon_alt_cond2" parent="1" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=9.5;fontFamily=Helvetica;fontStyle=2;fontColor=#000000;" value="[quyet dinh = &quot;Tu choi&quot;]" vertex="1">
+          <mxGeometry height="20" width="200" x="190" y="537" as="geometry" />
+        </mxCell>
+        <mxCell id="SEQ_UC09_XetDuyetYeuCauMuon_msg_1" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#000000;strokeWidth=1;fontFamily=Helvetica;fontSize=10;fontColor=#000000;endArrow=block;endFill=1;labelBackgroundColor=#FFFFFF;" value="Mo danh sach cho duyet, Chon phieu muon">
+          <mxGeometry relative="1" x="-0.0909" y="10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="85" y="159" as="sourcePoint" />
+            <mxPoint x="250" y="159" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SEQ_UC09_XetDuyetYeuCauMuon_msg_3" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#000000;strokeWidth=1;fontFamily=Helvetica;fontSize=10;fontColor=#000000;endArrow=block;endFill=1;labelBackgroundColor=#FFFFFF;" value="layThongTinPhieuMuon(maPM)">
+          <mxGeometry relative="1" x="-0.0556" y="10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="445" y="200" as="sourcePoint" />
+            <mxPoint x="625" y="200" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SEQ_UC09_XetDuyetYeuCauMuon_msg_4" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#000000;strokeWidth=1;fontFamily=Helvetica;fontSize=10;fontColor=#000000;endArrow=open;dashed=1;labelBackgroundColor=#FFFFFF;" value="thongTinPhieuMuon">
+          <mxGeometry relative="1" x="0.0556" y="-10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="625" y="230" as="sourcePoint" />
+            <mxPoint x="445" y="230" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SEQ_UC09_XetDuyetYeuCauMuon_msg_5" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#000000;strokeWidth=1;fontFamily=Helvetica;fontSize=10;fontColor=#000000;endArrow=block;endFill=1;labelBackgroundColor=#FFFFFF;" value="layLichRanhCuaMay(maTS)">
+          <mxGeometry relative="1" y="10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="445" y="260" as="sourcePoint" />
+            <mxPoint x="795" y="260" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SEQ_UC09_XetDuyetYeuCauMuon_msg_6" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#000000;strokeWidth=1;fontFamily=Helvetica;fontSize=10;fontColor=#000000;endArrow=open;dashed=1;labelBackgroundColor=#FFFFFF;" value="lichRanhThietBi">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="795" y="290" as="sourcePoint" />
+            <mxPoint x="445" y="290" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SEQ_UC09_XetDuyetYeuCauMuon_msg_7" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#000000;strokeWidth=1;fontFamily=Helvetica;fontSize=10;fontColor=#000000;endArrow=open;dashed=1;labelBackgroundColor=#FFFFFF;" value="thongTinChiTietPhieuMuon">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="435" y="315" as="sourcePoint" />
+            <mxPoint x="260" y="315" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SEQ_UC09_XetDuyetYeuCauMuon_msg_8" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#000000;strokeWidth=1;fontFamily=Helvetica;fontSize=10;fontColor=#000000;endArrow=open;dashed=1;labelBackgroundColor=#FFFFFF;" value="Hien thi chi tiet nguoi muon &amp; lich ranh thiet bi">
+          <mxGeometry relative="1" x="0.0909" y="-15" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="250" y="345" as="sourcePoint" />
+            <mxPoint x="85" y="345" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SEQ_UC09_XetDuyetYeuCauMuon_msg_9" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#000000;strokeWidth=1;fontFamily=Helvetica;fontSize=10;fontColor=#000000;endArrow=block;endFill=1;labelBackgroundColor=#FFFFFF;" value="Nhap ghi chu; Nhan &quot;Phe duyet&quot; (hoac &quot;Tu choi&quot;)">
+          <mxGeometry relative="1" x="-0.0909" y="15" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="85" y="385" as="sourcePoint" />
+            <mxPoint x="250" y="385" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SEQ_UC09_XetDuyetYeuCauMuon_msg_10" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#000000;strokeWidth=1;fontFamily=Helvetica;fontSize=10;fontColor=#000000;endArrow=block;endFill=1;labelBackgroundColor=#FFFFFF;" value="XuLyPheDuyet(maPM, quyetDinh, ghiChu)">
+          <mxGeometry relative="1" x="0.0286" y="10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="260" y="420" as="sourcePoint" />
+            <mxPoint x="435" y="420" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SEQ_UC09_XetDuyetYeuCauMuon_msg_11" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#000000;strokeWidth=1;fontFamily=Helvetica;fontSize=10;fontColor=#000000;endArrow=block;endFill=1;labelBackgroundColor=#FFFFFF;" value="capNhatTrangThai(&quot;Da duyet&quot;, ghiChu)">
+          <mxGeometry relative="1" x="-0.0556" y="15" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="445" y="475" as="sourcePoint" />
+            <mxPoint x="625" y="475" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SEQ_UC09_XetDuyetYeuCauMuon_msg_12" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#000000;strokeWidth=1;fontFamily=Helvetica;fontSize=10;fontColor=#000000;endArrow=block;endFill=1;labelBackgroundColor=#FFFFFF;" value="khoaLichMuon(maTS, ngayMuon, ngayTra)">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="445" y="505" as="sourcePoint" />
+            <mxPoint x="795" y="505" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SEQ_UC09_XetDuyetYeuCauMuon_msg_13" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#000000;strokeWidth=1;fontFamily=Helvetica;fontSize=10;fontColor=#000000;endArrow=open;dashed=1;labelBackgroundColor=#FFFFFF;" value="KetQuaXuLy.Ok">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="435" y="525" as="sourcePoint" />
+            <mxPoint x="260" y="525" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SEQ_UC09_XetDuyetYeuCauMuon_msg_14" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#000000;strokeWidth=1;fontFamily=Helvetica;fontSize=10;fontColor=#000000;endArrow=block;endFill=1;labelBackgroundColor=#FFFFFF;" value="capNhatTrangThai(&quot;Bi tu choi&quot;, ghiChu)">
+          <mxGeometry relative="1" x="-0.0556" y="15" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="445" y="555" as="sourcePoint" />
+            <mxPoint x="625" y="555" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SEQ_UC09_XetDuyetYeuCauMuon_msg_15" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#000000;strokeWidth=1;fontFamily=Helvetica;fontSize=10;fontColor=#000000;endArrow=open;dashed=1;labelBackgroundColor=#FFFFFF;" value="KetQuaXuLy.Ok (TuChoi)">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="435" y="575" as="sourcePoint" />
+            <mxPoint x="260" y="575" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SEQ_UC09_XetDuyetYeuCauMuon_msg_16" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#000000;strokeWidth=1;fontFamily=Helvetica;fontSize=10;fontColor=#000000;endArrow=open;dashed=1;labelBackgroundColor=#FFFFFF;" value="Thong bao ket qua xet duyet phieu muon">
+          <mxGeometry relative="1" x="0.0909" y="-10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="250" y="610" as="sourcePoint" />
+            <mxPoint x="85" y="610" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jLi67m5cxELFf0O8Hzpn-1" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#000000;strokeWidth=1;fontFamily=Helvetica;fontSize=10;fontColor=#000000;endArrow=block;endFill=1;labelBackgroundColor=#FFFFFF;" value="LayChiTietPhieu(maPM)">
+          <mxGeometry relative="1" x="-0.0857" y="10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="260" y="180" as="sourcePoint" />
+            <mxPoint x="435" y="180" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1EcrIaHR_5etAozND29G-5" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;strokeWidth=1;" value="" vertex="1">
+          <mxGeometry height="30" width="10" x="624" y="468" as="geometry" />
+        </mxCell>
+        <mxCell id="1EcrIaHR_5etAozND29G-6" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;strokeWidth=1;" value="" vertex="1">
+          <mxGeometry height="30" width="10" x="794" y="507" as="geometry" />
+        </mxCell>
+        <mxCell id="1EcrIaHR_5etAozND29G-7" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;strokeWidth=1;" value="" vertex="1">
+          <mxGeometry height="18" width="10" x="624" y="557" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="SEQ_UC10_LapBienBanBanGiao" name="UC10_BanGiaoTaiSan">
+    <mxGraphModel dx="1373" dy="703" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="SEQ_UC10_LapBienBanBanGiao_title" parent="1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=13;fontFamily=Helvetica;fontStyle=1;fontColor=#000000;" value="&lt;font style=&quot;font-size: 15px;&quot;&gt;Biểu đồ tuần tự cho chức năng Lập biên bản bàn giao&lt;/font&gt;" vertex="1">
+          <mxGeometry height="30" width="380" x="300" y="15" as="geometry" />
+        </mxCell>
+        <mxCell id="SEQ_UC10_LapBienBanBanGiao_act_icon" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;fillColor=#FFFFFF;strokeColor=#000000;strokeWidth=1.5;" value="" vertex="1">
+          <mxGeometry height="50" width="35" x="60" y="55" as="geometry" />
+        </mxCell>
+        <mxCell id="SEQ_UC10_LapBienBanBanGiao_act_lbl" parent="1" style="text;html=1;align=center;verticalAlign=top;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=10.5;fontFamily=Helvetica;fontColor=#000000;" value="&lt;u&gt;: ThuKho &amp; NhanVien&lt;/u&gt;" vertex="1">
+          <mxGeometry height="25" width="120" x="20" y="108" as="geometry" />
+        </mxCell>
+        <mxCell id="SEQ_UC10_LapBienBanBanGiao_act_line" edge="1" parent="1" style="endArrow=none;dashed=1;html=1;rounded=0;strokeColor=#000000;strokeWidth=1;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="80" y="133" as="sourcePoint" />
+            <mxPoint x="80" y="680" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SEQ_UC10_LapBienBanBanGiao_ui_icon" parent="1" style="shape=umlBoundary;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;strokeWidth=1.5;" value="" vertex="1">
+          <mxGeometry height="35" width="45" x="240" y="65" as="geometry" />
+        </mxCell>
+        <mxCell id="SEQ_UC10_LapBienBanBanGiao_ui_lbl" parent="1" style="text;html=1;align=center;verticalAlign=top;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=10.5;fontFamily=Helvetica;fontColor=#000000;" value="&lt;u&gt;: FrmBienBanBanGiao&lt;/u&gt;" vertex="1">
+          <mxGeometry height="25" width="130" x="200" y="105" as="geometry" />
+        </mxCell>
+        <mxCell id="SEQ_UC10_LapBienBanBanGiao_ui_line" edge="1" parent="1" style="endArrow=none;dashed=1;html=1;rounded=0;strokeColor=#000000;strokeWidth=1;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="265" y="133" as="sourcePoint" />
+            <mxPoint x="265" y="680" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SEQ_UC10_LapBienBanBanGiao_srv_icon" parent="1" style="shape=umlControl;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;strokeWidth=1.5;" value="" vertex="1">
+          <mxGeometry height="36" width="38" x="430" y="65" as="geometry" />
+        </mxCell>
+        <mxCell id="SEQ_UC10_LapBienBanBanGiao_srv_lbl" parent="1" style="text;html=1;align=center;verticalAlign=top;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=10.5;fontFamily=Helvetica;fontColor=#000000;" value="&lt;u&gt;: BienBanService&lt;/u&gt;" vertex="1">
+          <mxGeometry height="25" width="130" x="385" y="105" as="geometry" />
+        </mxCell>
+        <mxCell id="SEQ_UC10_LapBienBanBanGiao_srv_line" edge="1" parent="1" style="endArrow=none;dashed=1;html=1;rounded=0;strokeColor=#000000;strokeWidth=1;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="450" y="133" as="sourcePoint" />
+            <mxPoint x="450" y="680" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SEQ_UC10_LapBienBanBanGiao_e_pm_icon" parent="1" style="shape=umlEntity;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;strokeWidth=1.5;" value="" vertex="1">
+          <mxGeometry height="36" width="38" x="610" y="65" as="geometry" />
+        </mxCell>
+        <mxCell id="SEQ_UC10_LapBienBanBanGiao_e_pm_lbl" parent="1" style="text;html=1;align=center;verticalAlign=top;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=10.5;fontFamily=Helvetica;fontColor=#000000;" value="&lt;u&gt;: PhieuMuon&lt;/u&gt;" vertex="1">
+          <mxGeometry height="25" width="120" x="570" y="105" as="geometry" />
+        </mxCell>
+        <mxCell id="SEQ_UC10_LapBienBanBanGiao_e_pm_line" edge="1" parent="1" style="endArrow=none;dashed=1;html=1;rounded=0;strokeColor=#000000;strokeWidth=1;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="630" y="133" as="sourcePoint" />
+            <mxPoint x="630" y="680" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SEQ_UC10_LapBienBanBanGiao_e_bg_icon" parent="1" style="shape=umlEntity;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;strokeWidth=1.5;" value="" vertex="1">
+          <mxGeometry height="36" width="38" x="760" y="65" as="geometry" />
+        </mxCell>
+        <mxCell id="SEQ_UC10_LapBienBanBanGiao_e_bg_lbl" parent="1" style="text;html=1;align=center;verticalAlign=top;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=10.5;fontFamily=Helvetica;fontColor=#000000;" value="&lt;u&gt;: BienBanBanGiao&lt;/u&gt;" vertex="1">
+          <mxGeometry height="25" width="120" x="720" y="105" as="geometry" />
+        </mxCell>
+        <mxCell id="SEQ_UC10_LapBienBanBanGiao_e_bg_line" edge="1" parent="1" style="endArrow=none;dashed=1;html=1;rounded=0;strokeColor=#000000;strokeWidth=1;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="780" y="133" as="sourcePoint" />
+            <mxPoint x="780" y="680" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SEQ_UC10_LapBienBanBanGiao_e_ts_icon" parent="1" style="shape=umlEntity;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;strokeWidth=1.5;" value="" vertex="1">
+          <mxGeometry height="36" width="38" x="900" y="65" as="geometry" />
+        </mxCell>
+        <mxCell id="SEQ_UC10_LapBienBanBanGiao_e_ts_lbl" parent="1" style="text;html=1;align=center;verticalAlign=top;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=10.5;fontFamily=Helvetica;fontColor=#000000;" value="&lt;u&gt;: TaiSan&lt;/u&gt;" vertex="1">
+          <mxGeometry height="25" width="120" x="860" y="105" as="geometry" />
+        </mxCell>
+        <mxCell id="SEQ_UC10_LapBienBanBanGiao_e_ts_line" edge="1" parent="1" style="endArrow=none;dashed=1;html=1;rounded=0;strokeColor=#000000;strokeWidth=1;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="920" y="133" as="sourcePoint" />
+            <mxPoint x="920" y="680" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SEQ_UC10_LapBienBanBanGiao_ui_actbar" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;strokeWidth=1;" value="" vertex="1">
+          <mxGeometry height="480" width="10" x="260" y="130" as="geometry" />
+        </mxCell>
+        <mxCell id="SEQ_UC10_LapBienBanBanGiao_srv_actbar" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;strokeWidth=1;" value="" vertex="1">
+          <mxGeometry height="415" width="10" x="445" y="160" as="geometry" />
+        </mxCell>
+        <mxCell id="SEQ_UC10_LapBienBanBanGiao_e_pm_actbar" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;strokeWidth=1;" value="" vertex="1">
+          <mxGeometry height="370" width="10" x="625" y="190" as="geometry" />
+        </mxCell>
+        <mxCell id="SEQ_UC10_LapBienBanBanGiao_e_bg_actbar" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;strokeWidth=1;" value="" vertex="1">
+          <mxGeometry height="25" width="10" x="775" y="405" as="geometry" />
+        </mxCell>
+        <mxCell id="SEQ_UC10_LapBienBanBanGiao_e_ts_actbar" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;strokeWidth=1;" value="" vertex="1">
+          <mxGeometry height="100" width="10" x="915" y="435" as="geometry" />
+        </mxCell>
+        <mxCell id="SEQ_UC10_LapBienBanBanGiao_alt_box" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;strokeWidth=1;" value="" vertex="1">
+          <mxGeometry height="180" width="780" x="180" y="390" as="geometry" />
+        </mxCell>
+        <mxCell id="SEQ_UC10_LapBienBanBanGiao_alt_tag" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;strokeWidth=1;fontSize=10;fontFamily=Helvetica;align=center;verticalAlign=middle;fontColor=#000000;" value="&lt;b&gt;alt&lt;/b&gt;" vertex="1">
+          <mxGeometry height="18" width="35" x="180" y="390" as="geometry" />
+        </mxCell>
+        <mxCell id="SEQ_UC10_LapBienBanBanGiao_alt_cond1" parent="1" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=9.5;fontFamily=Helvetica;fontStyle=2;fontColor=#000000;" value="[da den ngay muon, moi may San sang chia se, tot va du phu kien]" vertex="1">
+          <mxGeometry height="20" width="200" x="220" y="390" as="geometry" />
+        </mxCell>
+        <mxCell id="SEQ_UC10_LapBienBanBanGiao_alt_dash" edge="1" parent="1" style="endArrow=none;dashed=1;html=1;rounded=0;strokeColor=#000000;strokeWidth=1;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="180" y="500" as="sourcePoint" />
+            <mxPoint x="960" y="500" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SEQ_UC10_LapBienBanBanGiao_alt_cond2" parent="1" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=9.5;fontFamily=Helvetica;fontStyle=2;fontColor=#000000;" value="[thiet bi loi hoac thieu phu kien]" vertex="1">
+          <mxGeometry height="20" width="200" x="190" y="502" as="geometry" />
+        </mxCell>
+        <mxCell id="SEQ_UC10_LapBienBanBanGiao_msg_1" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#000000;strokeWidth=1;fontFamily=Helvetica;fontSize=10;fontColor=#000000;endArrow=block;endFill=1;labelBackgroundColor=#FFFFFF;" value="Chon phieu muon da duyet tu danh sach cho giao">
+          <mxGeometry relative="1" x="-0.0286" y="10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="85" y="160" as="sourcePoint" />
+            <mxPoint x="260" y="160" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SEQ_UC10_LapBienBanBanGiao_msg_2" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#000000;strokeWidth=1;fontFamily=Helvetica;fontSize=10;fontColor=#000000;endArrow=block;endFill=1;labelBackgroundColor=#FFFFFF;" value="KhoiTaoBienBan(maPM)">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="270" y="170" as="sourcePoint" />
+            <mxPoint x="445" y="170" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SEQ_UC10_LapBienBanBanGiao_msg_3" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#000000;strokeWidth=1;fontFamily=Helvetica;fontSize=10;fontColor=#000000;endArrow=block;endFill=1;labelBackgroundColor=#FFFFFF;" value="layThongTinPhieu(maPM)">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="455" y="200" as="sourcePoint" />
+            <mxPoint x="625" y="200" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SEQ_UC10_LapBienBanBanGiao_msg_4" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#000000;strokeWidth=1;fontFamily=Helvetica;fontSize=10;fontColor=#000000;endArrow=open;dashed=1;labelBackgroundColor=#FFFFFF;" value="thongTinPhieuMuon">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="625" y="230" as="sourcePoint" />
+            <mxPoint x="455" y="230" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SEQ_UC10_LapBienBanBanGiao_msg_5" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#000000;strokeWidth=1;fontFamily=Helvetica;fontSize=10;fontColor=#000000;endArrow=open;dashed=1;labelBackgroundColor=#FFFFFF;" value="HienThiBieuMau(maBB, thongTinPhieu)">
+          <mxGeometry relative="1" x="-0.0286" y="-15" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="445" y="255" as="sourcePoint" />
+            <mxPoint x="270" y="255" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SEQ_UC10_LapBienBanBanGiao_msg_6" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#000000;strokeWidth=1;fontFamily=Helvetica;fontSize=10;fontColor=#000000;endArrow=open;dashed=1;labelBackgroundColor=#FFFFFF;" value="Hien thi bieu mau Bien ban ban giao (BGxxxxx)">
+          <mxGeometry relative="1" x="0.0286" y="-15" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="260" y="285" as="sourcePoint" />
+            <mxPoint x="85" y="285" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SEQ_UC10_LapBienBanBanGiao_msg_7" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#000000;strokeWidth=1;fontFamily=Helvetica;fontSize=10;fontColor=#000000;endArrow=block;endFill=1;labelBackgroundColor=#FFFFFF;" value="Dong kiem tra may; Nhan &quot;Ky xac nhan ban giao&quot;">
+          <mxGeometry relative="1" x="-0.0286" y="15" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="85" y="325" as="sourcePoint" />
+            <mxPoint x="260" y="325" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SEQ_UC10_LapBienBanBanGiao_msg_8" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#000000;strokeWidth=1;fontFamily=Helvetica;fontSize=10;fontColor=#000000;endArrow=block;endFill=1;labelBackgroundColor=#FFFFFF;" value="XacNhanBanGiao(maBB, maPM, tinhTrangMay, chuKy)">
+          <mxGeometry relative="1" x="0.0286" y="10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="270" y="360" as="sourcePoint" />
+            <mxPoint x="445" y="360" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SEQ_UC10_LapBienBanBanGiao_msg_9" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#000000;strokeWidth=1;fontFamily=Helvetica;fontSize=10;fontColor=#000000;endArrow=block;endFill=1;labelBackgroundColor=#FFFFFF;" value="themBienBanBanGiao(maBB, maPM, &quot;Da giao&quot;)">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="455" y="415" as="sourcePoint" />
+            <mxPoint x="775" y="415" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SEQ_UC10_LapBienBanBanGiao_msg_10" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#000000;strokeWidth=1;fontFamily=Helvetica;fontSize=10;fontColor=#000000;endArrow=block;endFill=1;labelBackgroundColor=#FFFFFF;" value="capNhatTrangThai(&quot;Dang muon&quot;)">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="455" y="445" as="sourcePoint" />
+            <mxPoint x="915" y="445" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SEQ_UC10_LapBienBanBanGiao_msg_11" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#000000;strokeWidth=1;fontFamily=Helvetica;fontSize=10;fontColor=#000000;endArrow=block;endFill=1;labelBackgroundColor=#FFFFFF;" value="capNhatTrangThai(&quot;Dang thuc hien&quot;)">
+          <mxGeometry relative="1" x="-0.1176" y="10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="455" y="470" as="sourcePoint" />
+            <mxPoint x="625" y="470" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SEQ_UC10_LapBienBanBanGiao_msg_12" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#000000;strokeWidth=1;fontFamily=Helvetica;fontSize=10;fontColor=#000000;endArrow=open;dashed=1;labelBackgroundColor=#FFFFFF;" value="KetQuaXuLy.Ok">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="445" y="490" as="sourcePoint" />
+            <mxPoint x="270" y="490" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SEQ_UC10_LapBienBanBanGiao_msg_13" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#000000;strokeWidth=1;fontFamily=Helvetica;fontSize=10;fontColor=#000000;endArrow=block;endFill=1;labelBackgroundColor=#FFFFFF;" value="capNhatTrangThai(&quot;Can bao duong&quot;)">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="455" y="520" as="sourcePoint" />
+            <mxPoint x="915" y="520" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SEQ_UC10_LapBienBanBanGiao_msg_14" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#000000;strokeWidth=1;fontFamily=Helvetica;fontSize=10;fontColor=#000000;endArrow=block;endFill=1;labelBackgroundColor=#FFFFFF;" value="capNhatTrangThai(&quot;Da huy&quot;)">
+          <mxGeometry relative="1" y="15" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="455" y="545" as="sourcePoint" />
+            <mxPoint x="625" y="545" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SEQ_UC10_LapBienBanBanGiao_msg_15" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#000000;strokeWidth=1;fontFamily=Helvetica;fontSize=10;fontColor=#000000;endArrow=open;dashed=1;labelBackgroundColor=#FFFFFF;" value="KetQuaXuLy.Fail (HuyBanGiao)">
+          <mxGeometry relative="1" x="-0.0286" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="445" y="560" as="sourcePoint" />
+            <mxPoint x="270" y="560" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SEQ_UC10_LapBienBanBanGiao_msg_16" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#000000;strokeWidth=1;fontFamily=Helvetica;fontSize=10;fontColor=#000000;endArrow=open;dashed=1;labelBackgroundColor=#FFFFFF;" value="Thong bao ket qua lap bien ban ban giao">
+          <mxGeometry relative="1" x="0.0286" y="-15" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="260" y="595" as="sourcePoint" />
+            <mxPoint x="85" y="595" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="SEQ_UC11_LapBienBanThuHoi" name="UC11_ThuHoiTaiSan">
+    <mxGraphModel dx="1776" dy="909" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1400" pageHeight="1200" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="SEQ_UC11_LapBienBanThuHoi_title" parent="1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=13;fontFamily=Helvetica;fontStyle=1;fontColor=#000000;" value="&lt;font style=&quot;font-size: 15px;&quot;&gt;Biểu đồ tuần tự cho chức năng Lập biên bản thu hồi &amp;amp; hao mòn&amp;nbsp;&lt;/font&gt;" vertex="1">
+          <mxGeometry height="30" width="450" x="435" y="15" as="geometry" />
+        </mxCell>
+        <mxCell id="SEQ_UC11_LapBienBanThuHoi_A_icon" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;fillColor=#FFFFFF;strokeColor=#000000;strokeWidth=1.5;" value="" vertex="1">
+          <mxGeometry height="50" width="35" x="53" y="55" as="geometry" />
+        </mxCell>
+        <mxCell id="SEQ_UC11_LapBienBanThuHoi_A_lbl" parent="1" style="text;html=1;align=center;verticalAlign=top;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=10.5;fontFamily=Helvetica;fontColor=#000000;" value="&lt;u&gt;: ThuKho &amp; NhanVien&lt;/u&gt;" vertex="1">
+          <mxGeometry height="25" width="120" x="10" y="108" as="geometry" />
+        </mxCell>
+        <mxCell id="SEQ_UC11_LapBienBanThuHoi_A_line" edge="1" parent="1" style="endArrow=none;dashed=1;html=1;rounded=0;strokeColor=#000000;strokeWidth=1;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="70" y="133" as="sourcePoint" />
+            <mxPoint x="70" y="1130" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SEQ_UC11_LapBienBanThuHoi_F_icon" parent="1" style="shape=umlBoundary;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;strokeWidth=1.5;" value="" vertex="1">
+          <mxGeometry height="35" width="45" x="238" y="65" as="geometry" />
+        </mxCell>
+        <mxCell id="SEQ_UC11_LapBienBanThuHoi_F_lbl" parent="1" style="text;html=1;align=center;verticalAlign=top;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=10.5;fontFamily=Helvetica;fontColor=#000000;" value="&lt;u&gt;: FrmBienBanThuHoi&lt;/u&gt;" vertex="1">
+          <mxGeometry height="25" width="130" x="195" y="105" as="geometry" />
+        </mxCell>
+        <mxCell id="SEQ_UC11_LapBienBanThuHoi_F_line" edge="1" parent="1" style="endArrow=none;dashed=1;html=1;rounded=0;strokeColor=#000000;strokeWidth=1;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="260" y="133" as="sourcePoint" />
+            <mxPoint x="260" y="1130" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SEQ_UC11_LapBienBanThuHoi_S_icon" parent="1" style="shape=umlControl;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;strokeWidth=1.5;" value="" vertex="1">
+          <mxGeometry height="36" width="38" x="451" y="65" as="geometry" />
+        </mxCell>
+        <mxCell id="SEQ_UC11_LapBienBanThuHoi_S_lbl" parent="1" style="text;html=1;align=center;verticalAlign=top;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=10.5;fontFamily=Helvetica;fontColor=#000000;" value="&lt;u&gt;: BienBanService&lt;/u&gt;" vertex="1">
+          <mxGeometry height="25" width="130" x="405" y="105" as="geometry" />
+        </mxCell>
+        <mxCell id="SEQ_UC11_LapBienBanThuHoi_S_line" edge="1" parent="1" style="endArrow=none;dashed=1;html=1;rounded=0;strokeColor=#000000;strokeWidth=1;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="470" y="133" as="sourcePoint" />
+            <mxPoint x="470" y="1130" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SEQ_UC11_LapBienBanThuHoi_BG_icon" parent="1" style="shape=umlEntity;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;strokeWidth=1.5;" value="" vertex="1">
+          <mxGeometry height="36" width="38" x="631" y="65" as="geometry" />
+        </mxCell>
+        <mxCell id="SEQ_UC11_LapBienBanThuHoi_BG_lbl" parent="1" style="text;html=1;align=center;verticalAlign=top;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=10.5;fontFamily=Helvetica;fontColor=#000000;" value="&lt;u&gt;: BienBanBanGiao&lt;/u&gt;" vertex="1">
+          <mxGeometry height="25" width="130" x="585" y="105" as="geometry" />
+        </mxCell>
+        <mxCell id="SEQ_UC11_LapBienBanThuHoi_BG_line" edge="1" parent="1" style="endArrow=none;dashed=1;html=1;rounded=0;strokeColor=#000000;strokeWidth=1;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="650" y="133" as="sourcePoint" />
+            <mxPoint x="650" y="1130" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SEQ_UC11_LapBienBanThuHoi_TH_icon" parent="1" style="shape=umlEntity;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;strokeWidth=1.5;" value="" vertex="1">
+          <mxGeometry height="36" width="38" x="781" y="65" as="geometry" />
+        </mxCell>
+        <mxCell id="SEQ_UC11_LapBienBanThuHoi_TH_lbl" parent="1" style="text;html=1;align=center;verticalAlign=top;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=10.5;fontFamily=Helvetica;fontColor=#000000;" value="&lt;u&gt;: BienBanThuHoi&lt;/u&gt;" vertex="1">
+          <mxGeometry height="25" width="130" x="735" y="105" as="geometry" />
+        </mxCell>
+        <mxCell id="SEQ_UC11_LapBienBanThuHoi_TH_line" edge="1" parent="1" style="endArrow=none;dashed=1;html=1;rounded=0;strokeColor=#000000;strokeWidth=1;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="800" y="133" as="sourcePoint" />
+            <mxPoint x="800" y="1130" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SEQ_UC11_LapBienBanThuHoi_PM_icon" parent="1" style="shape=umlEntity;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;strokeWidth=1.5;" value="" vertex="1">
+          <mxGeometry height="36" width="38" x="931" y="65" as="geometry" />
+        </mxCell>
+        <mxCell id="SEQ_UC11_LapBienBanThuHoi_PM_lbl" parent="1" style="text;html=1;align=center;verticalAlign=top;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=10.5;fontFamily=Helvetica;fontColor=#000000;" value="&lt;u&gt;: PhieuMuon&lt;/u&gt;" vertex="1">
+          <mxGeometry height="25" width="130" x="885" y="105" as="geometry" />
+        </mxCell>
+        <mxCell id="SEQ_UC11_LapBienBanThuHoi_PM_line" edge="1" parent="1" style="endArrow=none;dashed=1;html=1;rounded=0;strokeColor=#000000;strokeWidth=1;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="950" y="133" as="sourcePoint" />
+            <mxPoint x="950" y="1130" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SEQ_UC11_LapBienBanThuHoi_TS_icon" parent="1" style="shape=umlEntity;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;strokeWidth=1.5;" value="" vertex="1">
+          <mxGeometry height="36" width="38" x="1081" y="65" as="geometry" />
+        </mxCell>
+        <mxCell id="SEQ_UC11_LapBienBanThuHoi_TS_lbl" parent="1" style="text;html=1;align=center;verticalAlign=top;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=10.5;fontFamily=Helvetica;fontColor=#000000;" value="&lt;u&gt;: TaiSan&lt;/u&gt;" vertex="1">
+          <mxGeometry height="25" width="130" x="1035" y="105" as="geometry" />
+        </mxCell>
+        <mxCell id="SEQ_UC11_LapBienBanThuHoi_TS_line" edge="1" parent="1" style="endArrow=none;dashed=1;html=1;rounded=0;strokeColor=#000000;strokeWidth=1;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1100" y="133" as="sourcePoint" />
+            <mxPoint x="1100" y="1130" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SEQ_UC11_LapBienBanThuHoi_SC_icon" parent="1" style="shape=umlEntity;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;strokeWidth=1.5;" value="" vertex="1">
+          <mxGeometry height="36" width="38" x="1231" y="65" as="geometry" />
+        </mxCell>
+        <mxCell id="SEQ_UC11_LapBienBanThuHoi_SC_lbl" parent="1" style="text;html=1;align=center;verticalAlign=top;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=10.5;fontFamily=Helvetica;fontColor=#000000;" value="&lt;u&gt;: LichSuSuCo&lt;/u&gt;" vertex="1">
+          <mxGeometry height="25" width="130" x="1185" y="105" as="geometry" />
+        </mxCell>
+        <mxCell id="SEQ_UC11_LapBienBanThuHoi_SC_line" edge="1" parent="1" style="endArrow=none;dashed=1;html=1;rounded=0;strokeColor=#000000;strokeWidth=1;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1250" y="133" as="sourcePoint" />
+            <mxPoint x="1250" y="1130" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SEQ_UC11_LapBienBanThuHoi_bar0" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;strokeWidth=1;" value="" vertex="1">
+          <mxGeometry height="962" width="10" x="65" y="133" as="geometry" />
+        </mxCell>
+        <mxCell id="SEQ_UC11_LapBienBanThuHoi_bar1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;strokeWidth=1;" value="" vertex="1">
+          <mxGeometry height="935" width="10" x="255" y="160" as="geometry" />
+        </mxCell>
+        <mxCell id="SEQ_UC11_LapBienBanThuHoi_bar2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;strokeWidth=1;" value="" vertex="1">
+          <mxGeometry height="845" width="10" x="465" y="205" as="geometry" />
+        </mxCell>
+        <mxCell id="SEQ_UC11_LapBienBanThuHoi_bar3" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;strokeWidth=1;" value="" vertex="1">
+          <mxGeometry height="50" width="10" x="645" y="245" as="geometry" />
+        </mxCell>
+        <mxCell id="SEQ_UC11_LapBienBanThuHoi_bar4" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;strokeWidth=1;" value="" vertex="1">
+          <mxGeometry height="25" width="10" x="795" y="510" as="geometry" />
+        </mxCell>
+        <mxCell id="SEQ_UC11_LapBienBanThuHoi_loop_box" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;strokeWidth=1;" value="" vertex="1">
+          <mxGeometry height="400" width="960" x="380" y="555" as="geometry" />
+        </mxCell>
+        <mxCell id="SEQ_UC11_LapBienBanThuHoi_loop_tag" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;strokeWidth=1;fontSize=10;fontFamily=Helvetica;align=center;verticalAlign=middle;fontColor=#000000;" value="&lt;b&gt;loop&lt;/b&gt;" vertex="1">
+          <mxGeometry height="18" width="40" x="380" y="545" as="geometry" />
+        </mxCell>
+        <mxCell id="SEQ_UC11_LapBienBanThuHoi_loop_cond" parent="1" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=#FFFFFF;fontSize=9.5;fontFamily=Helvetica;fontStyle=2;fontColor=#000000;" value="[voi tung thiet bi trong dsThietBi]" vertex="1">
+          <mxGeometry height="18" width="201" x="487" y="545" as="geometry" />
+        </mxCell>
+        <mxCell id="SEQ_UC11_LapBienBanThuHoi_alt_box" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;strokeWidth=1;" value="" vertex="1">
+          <mxGeometry height="245" width="910" x="405" y="680" as="geometry" />
+        </mxCell>
+        <mxCell id="SEQ_UC11_LapBienBanThuHoi_alt_tag" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;strokeWidth=1;fontSize=10;fontFamily=Helvetica;align=center;verticalAlign=middle;fontColor=#000000;" value="&lt;b&gt;alt&lt;/b&gt;" vertex="1">
+          <mxGeometry height="18" width="35" x="405" y="670" as="geometry" />
+        </mxCell>
+        <mxCell id="SEQ_UC11_LapBienBanThuHoi_alt_cond" parent="1" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=#FFFFFF;fontSize=9.5;fontFamily=Helvetica;fontStyle=2;fontColor=#000000;" value="[tinhTrangSau = Tot va hienTrangMoi &gt;= 50]" vertex="1">
+          <mxGeometry height="18" width="238" x="487" y="670" as="geometry" />
+        </mxCell>
+        <mxCell id="SEQ_UC11_LapBienBanThuHoi_alt_dash" edge="1" parent="1" style="endArrow=none;dashed=1;html=1;rounded=0;strokeColor=#000000;strokeWidth=1;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="405" y="760" as="sourcePoint" />
+            <mxPoint x="1315" y="760" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SEQ_UC11_LapBienBanThuHoi_alt_cond2" parent="1" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=#FFFFFF;fontSize=9.5;fontFamily=Helvetica;fontStyle=2;fontColor=#000000;" value="[hu hong, mat phu kien hoac hienTrangMoi &lt; 50]" vertex="1">
+          <mxGeometry height="18" width="260" x="487" y="762" as="geometry" />
+        </mxCell>
+        <mxCell id="SEQ_UC11_LapBienBanThuHoi_bar5" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;strokeWidth=1;" value="" vertex="1">
+          <mxGeometry height="25" width="10" x="945" y="583" as="geometry" />
+        </mxCell>
+        <mxCell id="SEQ_UC11_LapBienBanThuHoi_bar6" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;strokeWidth=1;" value="" vertex="1">
+          <mxGeometry height="25" width="10" x="945" y="983" as="geometry" />
+        </mxCell>
+        <mxCell id="SEQ_UC11_LapBienBanThuHoi_bar7" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;strokeWidth=1;" value="" vertex="1">
+          <mxGeometry height="25" width="10" x="1095" y="713" as="geometry" />
+        </mxCell>
+        <mxCell id="SEQ_UC11_LapBienBanThuHoi_bar8" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;strokeWidth=1;" value="" vertex="1">
+          <mxGeometry height="25" width="10" x="1095" y="883" as="geometry" />
+        </mxCell>
+        <mxCell id="SEQ_UC11_LapBienBanThuHoi_bar9" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;strokeWidth=1;" value="" vertex="1">
+          <mxGeometry height="25" width="10" x="1245" y="838" as="geometry" />
+        </mxCell>
+        <mxCell id="SEQ_UC11_LapBienBanThuHoi_m1" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#000000;strokeWidth=1;fontFamily=Helvetica;fontSize=10;fontColor=#000000;endArrow=block;endFill=1;labelBackgroundColor=#FFFFFF;" value="Chon phieu muon dang thuc hien can thu hoi">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="75" y="170" as="sourcePoint" />
+            <mxPoint x="255" y="170" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SEQ_UC11_LapBienBanThuHoi_m2" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#000000;strokeWidth=1;fontFamily=Helvetica;fontSize=10;fontColor=#000000;endArrow=block;endFill=1;labelBackgroundColor=#FFFFFF;" value="LayThongTinBanGiao(maPM)">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="265" y="215" as="sourcePoint" />
+            <mxPoint x="465" y="215" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SEQ_UC11_LapBienBanThuHoi_m3" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#000000;strokeWidth=1;fontFamily=Helvetica;fontSize=10;fontColor=#000000;endArrow=block;endFill=1;labelBackgroundColor=#FFFFFF;" value="layChiTietGiaoTruocDo(maPM)">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="475" y="255" as="sourcePoint" />
+            <mxPoint x="645" y="255" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SEQ_UC11_LapBienBanThuHoi_m4" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#000000;strokeWidth=1;fontFamily=Helvetica;fontSize=10;fontColor=#000000;endArrow=open;dashed=1;labelBackgroundColor=#FFFFFF;" value="thongTinGiaoTruocDo">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="645" y="285" as="sourcePoint" />
+            <mxPoint x="475" y="285" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SEQ_UC11_LapBienBanThuHoi_m5" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#000000;strokeWidth=1;fontFamily=Helvetica;fontSize=10;fontColor=#000000;endArrow=open;dashed=1;labelBackgroundColor=#FFFFFF;" value="HienThiBieuMau(maBBTH)">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="465" y="330" as="sourcePoint" />
+            <mxPoint x="265" y="330" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SEQ_UC11_LapBienBanThuHoi_m6" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#000000;strokeWidth=1;fontFamily=Helvetica;fontSize=10;fontColor=#000000;endArrow=open;dashed=1;labelBackgroundColor=#FFFFFF;" value="Hien thi bieu mau&lt;br&gt;Bien ban thu hoi (THxxxxx)">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="255" y="372" as="sourcePoint" />
+            <mxPoint x="75" y="372" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SEQ_UC11_LapBienBanThuHoi_m7" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#000000;strokeWidth=1;fontFamily=Helvetica;fontSize=10;fontColor=#000000;endArrow=block;endFill=1;labelBackgroundColor=#FFFFFF;" value="Dong kiem tra tung thiet bi;&lt;br&gt;Nhap tinh trang sau, ty le hao mon;&lt;br&gt;Nhan &quot;Ky bien ban thu hoi&quot;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="75" y="440" as="sourcePoint" />
+            <mxPoint x="255" y="440" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SEQ_UC11_LapBienBanThuHoi_m8" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#000000;strokeWidth=1;fontFamily=Helvetica;fontSize=10;fontColor=#000000;endArrow=block;endFill=1;labelBackgroundColor=#FFFFFF;" value="XacNhanThuHoi(maPM, dsThietBi)">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="265" y="485" as="sourcePoint" />
+            <mxPoint x="465" y="485" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SEQ_UC11_LapBienBanThuHoi_m9" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#000000;strokeWidth=1;fontFamily=Helvetica;fontSize=10;fontColor=#000000;endArrow=block;endFill=1;labelBackgroundColor=#FFFFFF;" value="themBienBanThuHoi(maBBTH, maPM)">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="475" y="522" as="sourcePoint" />
+            <mxPoint x="795" y="522" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SEQ_UC11_LapBienBanThuHoi_m10" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#000000;strokeWidth=1;fontFamily=Helvetica;fontSize=10;fontColor=#000000;endArrow=block;endFill=1;labelBackgroundColor=#FFFFFF;" value="capNhatChiTiet(maTS, tinhTrangSau, tyLeHaoMon)">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="475" y="595" as="sourcePoint" />
+            <mxPoint x="945" y="595" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SEQ_UC11_LapBienBanThuHoi_bar10" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;strokeWidth=1;" value="" vertex="1">
+          <mxGeometry height="34" width="10" x="470" y="626" as="geometry" />
+        </mxCell>
+        <mxCell id="SEQ_UC11_LapBienBanThuHoi_m11" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#000000;strokeWidth=1;fontFamily=Helvetica;fontSize=10;fontColor=#000000;endArrow=block;endFill=1;labelBackgroundColor=#FFFFFF;align=left;" value="tinhHienTrangMoi(hienTrang, tyLeHaoMon)">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="525" y="632" />
+              <mxPoint x="525" y="654" />
+            </Array>
+            <mxPoint x="475" y="632" as="sourcePoint" />
+            <mxPoint x="480" y="654" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SEQ_UC11_LapBienBanThuHoi_m12" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#000000;strokeWidth=1;fontFamily=Helvetica;fontSize=10;fontColor=#000000;endArrow=block;endFill=1;labelBackgroundColor=#FFFFFF;" value="capNhatTrangThai(&#39;SanSangChiaSe&#39;, hienTrangMoi)">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="475" y="725" as="sourcePoint" />
+            <mxPoint x="1095" y="725" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SEQ_UC11_LapBienBanThuHoi_bar11" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;strokeWidth=1;" value="" vertex="1">
+          <mxGeometry height="34" width="10" x="470" y="799" as="geometry" />
+        </mxCell>
+        <mxCell id="SEQ_UC11_LapBienBanThuHoi_m13" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#000000;strokeWidth=1;fontFamily=Helvetica;fontSize=10;fontColor=#000000;endArrow=block;endFill=1;labelBackgroundColor=#FFFFFF;align=left;" value="tinhChiPhiBoiThuong(nguyenGia, tyLeThietHai)">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="525" y="805" />
+              <mxPoint x="525" y="827" />
+            </Array>
+            <mxPoint x="475" y="805" as="sourcePoint" />
+            <mxPoint x="480" y="827" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SEQ_UC11_LapBienBanThuHoi_m14" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#000000;strokeWidth=1;fontFamily=Helvetica;fontSize=10;fontColor=#000000;endArrow=block;endFill=1;labelBackgroundColor=#FFFFFF;" value="themSuCo(maTS, maBBTH, chiPhiBoiThuong)">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="475" y="850" as="sourcePoint" />
+            <mxPoint x="1245" y="850" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SEQ_UC11_LapBienBanThuHoi_m15" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#000000;strokeWidth=1;fontFamily=Helvetica;fontSize=10;fontColor=#000000;endArrow=block;endFill=1;labelBackgroundColor=#FFFFFF;" value="capNhatTrangThai(&#39;CanBaoDuong&#39;, hienTrangMoi)">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="475" y="895" as="sourcePoint" />
+            <mxPoint x="1095" y="895" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SEQ_UC11_LapBienBanThuHoi_m16" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#000000;strokeWidth=1;fontFamily=Helvetica;fontSize=10;fontColor=#000000;endArrow=block;endFill=1;labelBackgroundColor=#FFFFFF;" value="capNhatTrangThai(&#39;HoanTat&#39;)">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="475" y="995" as="sourcePoint" />
+            <mxPoint x="945" y="995" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SEQ_UC11_LapBienBanThuHoi_m17" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#000000;strokeWidth=1;fontFamily=Helvetica;fontSize=10;fontColor=#000000;endArrow=open;dashed=1;labelBackgroundColor=#FFFFFF;" value="KetQuaXuLy.Ok (ketQuaTungMay)">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="465" y="1040" as="sourcePoint" />
+            <mxPoint x="265" y="1040" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SEQ_UC11_LapBienBanThuHoi_m18" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#000000;strokeWidth=1;fontFamily=Helvetica;fontSize=10;fontColor=#000000;endArrow=open;dashed=1;labelBackgroundColor=#FFFFFF;" value="Thong bao ket qua thu hoi tai san">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="255" y="1082" as="sourcePoint" />
+            <mxPoint x="75" y="1082" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="SEQ_UC16_BaoCaoCAI" name="UC16_BaoCaoCAI">
+    <mxGraphModel dx="1272" dy="651" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="SEQ_UC16_BaoCaoCAI_title" parent="1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=13;fontFamily=Helvetica;fontStyle=1;fontColor=#000000;" value="&lt;font style=&quot;font-size: 15px;&quot;&gt;Biểu đồ tuần tự cho chức năng Báo cáo chỉ số tránh mua mới&lt;/font&gt;" vertex="1">
+          <mxGeometry height="30" width="430" x="275" y="15" as="geometry" />
+        </mxCell>
+        <mxCell id="SEQ_UC16_BaoCaoCAI_act_icon" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;fillColor=#FFFFFF;strokeColor=#000000;strokeWidth=1.5;" value="" vertex="1">
+          <mxGeometry height="50" width="35" x="60" y="55" as="geometry" />
+        </mxCell>
+        <mxCell id="SEQ_UC16_BaoCaoCAI_act_lbl" parent="1" style="text;html=1;align=center;verticalAlign=top;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=10.5;fontFamily=Helvetica;fontColor=#000000;" value="&lt;u&gt;: LanhDao / ThuKho&lt;/u&gt;" vertex="1">
+          <mxGeometry height="25" width="120" x="20" y="108" as="geometry" />
+        </mxCell>
+        <mxCell id="SEQ_UC16_BaoCaoCAI_act_line" edge="1" parent="1" style="endArrow=none;dashed=1;html=1;rounded=0;strokeColor=#000000;strokeWidth=1;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="80" y="133" as="sourcePoint" />
+            <mxPoint x="80" y="630" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SEQ_UC16_BaoCaoCAI_ui_icon" parent="1" style="shape=umlBoundary;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;strokeWidth=1.5;" value="" vertex="1">
+          <mxGeometry height="35" width="45" x="230" y="65" as="geometry" />
+        </mxCell>
+        <mxCell id="SEQ_UC16_BaoCaoCAI_ui_lbl" parent="1" style="text;html=1;align=center;verticalAlign=top;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=10.5;fontFamily=Helvetica;fontColor=#000000;" value="&lt;u&gt;: FrmBaoCaoCAI&lt;/u&gt;" vertex="1">
+          <mxGeometry height="25" width="130" x="190" y="105" as="geometry" />
+        </mxCell>
+        <mxCell id="SEQ_UC16_BaoCaoCAI_ui_line" edge="1" parent="1" style="endArrow=none;dashed=1;html=1;rounded=0;strokeColor=#000000;strokeWidth=1;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="255" y="133" as="sourcePoint" />
+            <mxPoint x="255" y="630" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SEQ_UC16_BaoCaoCAI_srv_icon" parent="1" style="shape=umlControl;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;strokeWidth=1.5;" value="" vertex="1">
+          <mxGeometry height="36" width="38" x="420" y="65" as="geometry" />
+        </mxCell>
+        <mxCell id="SEQ_UC16_BaoCaoCAI_srv_lbl" parent="1" style="text;html=1;align=center;verticalAlign=top;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=10.5;fontFamily=Helvetica;fontColor=#000000;" value="&lt;u&gt;: BaoCaoService&lt;/u&gt;" vertex="1">
+          <mxGeometry height="25" width="130" x="375" y="105" as="geometry" />
+        </mxCell>
+        <mxCell id="SEQ_UC16_BaoCaoCAI_srv_line" edge="1" parent="1" style="endArrow=none;dashed=1;html=1;rounded=0;strokeColor=#000000;strokeWidth=1;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="440" y="133" as="sourcePoint" />
+            <mxPoint x="440" y="630" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SEQ_UC16_BaoCaoCAI_e_ts_icon" parent="1" style="shape=umlEntity;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;strokeWidth=1.5;" value="" vertex="1">
+          <mxGeometry height="36" width="38" x="610" y="65" as="geometry" />
+        </mxCell>
+        <mxCell id="SEQ_UC16_BaoCaoCAI_e_ts_lbl" parent="1" style="text;html=1;align=center;verticalAlign=top;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=10.5;fontFamily=Helvetica;fontColor=#000000;" value="&lt;u&gt;: TaiSan&lt;/u&gt;" vertex="1">
+          <mxGeometry height="25" width="120" x="570" y="105" as="geometry" />
+        </mxCell>
+        <mxCell id="SEQ_UC16_BaoCaoCAI_e_ts_line" edge="1" parent="1" style="endArrow=none;dashed=1;html=1;rounded=0;strokeColor=#000000;strokeWidth=1;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="630" y="133" as="sourcePoint" />
+            <mxPoint x="630" y="630" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SEQ_UC16_BaoCaoCAI_e_pm_icon" parent="1" style="shape=umlEntity;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;strokeWidth=1.5;" value="" vertex="1">
+          <mxGeometry height="36" width="38" x="760" y="65" as="geometry" />
+        </mxCell>
+        <mxCell id="SEQ_UC16_BaoCaoCAI_e_pm_lbl" parent="1" style="text;html=1;align=center;verticalAlign=top;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=10.5;fontFamily=Helvetica;fontColor=#000000;" value="&lt;u&gt;: PhieuMuon&lt;/u&gt;" vertex="1">
+          <mxGeometry height="25" width="120" x="720" y="105" as="geometry" />
+        </mxCell>
+        <mxCell id="SEQ_UC16_BaoCaoCAI_e_pm_line" edge="1" parent="1" style="endArrow=none;dashed=1;html=1;rounded=0;strokeColor=#000000;strokeWidth=1;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="780" y="133" as="sourcePoint" />
+            <mxPoint x="780" y="630" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SEQ_UC16_BaoCaoCAI_e_bd_icon" parent="1" style="shape=umlEntity;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;strokeWidth=1.5;" value="" vertex="1">
+          <mxGeometry height="36" width="38" x="900" y="65" as="geometry" />
+        </mxCell>
+        <mxCell id="SEQ_UC16_BaoCaoCAI_e_bd_lbl" parent="1" style="text;html=1;align=center;verticalAlign=top;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=10.5;fontFamily=Helvetica;fontColor=#000000;" value="&lt;u&gt;: PhieuBaoDuong&lt;/u&gt;" vertex="1">
+          <mxGeometry height="25" width="120" x="860" y="105" as="geometry" />
+        </mxCell>
+        <mxCell id="SEQ_UC16_BaoCaoCAI_e_bd_line" edge="1" parent="1" style="endArrow=none;dashed=1;html=1;rounded=0;strokeColor=#000000;strokeWidth=1;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="920" y="133" as="sourcePoint" />
+            <mxPoint x="920" y="630" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SEQ_UC16_BaoCaoCAI_ui_actbar" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;strokeWidth=1;" value="" vertex="1">
+          <mxGeometry height="470" width="10" x="250" y="130" as="geometry" />
+        </mxCell>
+        <mxCell id="SEQ_UC16_BaoCaoCAI_srv_actbar" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;strokeWidth=1;" value="" vertex="1">
+          <mxGeometry height="315" width="10" x="435" y="195" as="geometry" />
+        </mxCell>
+        <mxCell id="SEQ_UC16_BaoCaoCAI_e_ts_actbar" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;strokeWidth=1;" value="" vertex="1">
+          <mxGeometry height="55" width="10" x="625" y="225" as="geometry" />
+        </mxCell>
+        <mxCell id="SEQ_UC16_BaoCaoCAI_e_pm_actbar" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;strokeWidth=1;" value="" vertex="1">
+          <mxGeometry height="55" width="10" x="775" y="285" as="geometry" />
+        </mxCell>
+        <mxCell id="SEQ_UC16_BaoCaoCAI_e_bd_actbar" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;strokeWidth=1;" value="" vertex="1">
+          <mxGeometry height="55" width="10" x="915" y="345" as="geometry" />
+        </mxCell>
+        <mxCell id="SEQ_UC16_BaoCaoCAI_msg_1" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#000000;strokeWidth=1;fontFamily=Helvetica;fontSize=10;fontColor=#000000;endArrow=block;endFill=1;labelBackgroundColor=#FFFFFF;" value="Chon ky danh gia (Quy, Nam); Nhan &quot;Xem bao cao&quot;">
+          <mxGeometry relative="1" x="-0.0909" y="10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="85" y="160" as="sourcePoint" />
+            <mxPoint x="250" y="160" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SEQ_UC16_BaoCaoCAI_msg_2" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#000000;strokeWidth=1;fontFamily=Helvetica;fontSize=10;fontColor=#000000;endArrow=block;endFill=1;labelBackgroundColor=#FFFFFF;align=left;" value="Kiem tra ky danh gia hop le">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="283" y="170" />
+              <mxPoint x="283" y="192" />
+            </Array>
+            <mxPoint x="260" y="170" as="sourcePoint" />
+            <mxPoint x="260" y="192" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SEQ_UC16_BaoCaoCAI_msg_3" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#000000;strokeWidth=1;fontFamily=Helvetica;fontSize=10;fontColor=#000000;endArrow=block;endFill=1;labelBackgroundColor=#FFFFFF;" value="TongHopChiSoCAI(quy, nam)">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="260" y="205" as="sourcePoint" />
+            <mxPoint x="435" y="205" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SEQ_UC16_BaoCaoCAI_msg_4" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#000000;strokeWidth=1;fontFamily=Helvetica;fontSize=10;fontColor=#000000;endArrow=block;endFill=1;labelBackgroundColor=#FFFFFF;" value="layNguyenGiaCacTaiSan(quy, nam)">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="445" y="235" as="sourcePoint" />
+            <mxPoint x="625" y="235" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SEQ_UC16_BaoCaoCAI_msg_5" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#000000;strokeWidth=1;fontFamily=Helvetica;fontSize=10;fontColor=#000000;endArrow=open;dashed=1;labelBackgroundColor=#FFFFFF;" value="dsNguyenGia">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="625" y="265" as="sourcePoint" />
+            <mxPoint x="445" y="265" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SEQ_UC16_BaoCaoCAI_msg_6" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#000000;strokeWidth=1;fontFamily=Helvetica;fontSize=10;fontColor=#000000;endArrow=block;endFill=1;labelBackgroundColor=#FFFFFF;" value="laySoNgayMuonThucTe(quy, nam)">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="445" y="295" as="sourcePoint" />
+            <mxPoint x="775" y="295" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SEQ_UC16_BaoCaoCAI_msg_7" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#000000;strokeWidth=1;fontFamily=Helvetica;fontSize=10;fontColor=#000000;endArrow=open;dashed=1;labelBackgroundColor=#FFFFFF;" value="dsNgayMuonThucTe">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="775" y="325" as="sourcePoint" />
+            <mxPoint x="445" y="325" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SEQ_UC16_BaoCaoCAI_msg_8" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#000000;strokeWidth=1;fontFamily=Helvetica;fontSize=10;fontColor=#000000;endArrow=block;endFill=1;labelBackgroundColor=#FFFFFF;" value="tongChiPhiBaoDuong(quy, nam)">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="445" y="355" as="sourcePoint" />
+            <mxPoint x="915" y="355" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SEQ_UC16_BaoCaoCAI_msg_9" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#000000;strokeWidth=1;fontFamily=Helvetica;fontSize=10;fontColor=#000000;endArrow=open;dashed=1;labelBackgroundColor=#FFFFFF;" value="tongChiPhiBaoDuong">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="915" y="385" as="sourcePoint" />
+            <mxPoint x="445" y="385" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SEQ_UC16_BaoCaoCAI_msg_10" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#000000;strokeWidth=1;fontFamily=Helvetica;fontSize=10;fontColor=#000000;endArrow=block;endFill=1;labelBackgroundColor=#FFFFFF;align=left;" value="tinhToan(GCAV, NCAV = GCAV - ChiPhiBD, CAI)">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="468" y="450" />
+              <mxPoint x="468" y="472" />
+            </Array>
+            <mxPoint x="445" y="450" as="sourcePoint" />
+            <mxPoint x="445" y="472" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SEQ_UC16_BaoCaoCAI_msg_11" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#000000;strokeWidth=1;fontFamily=Helvetica;fontSize=10;fontColor=#000000;endArrow=open;dashed=1;labelBackgroundColor=#FFFFFF;" value="bangTongHopChiSo(GCAV, NCAV, CAI)">
+          <mxGeometry relative="1" x="-0.0286" y="-20" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="435" y="485" as="sourcePoint" />
+            <mxPoint x="260" y="485" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SEQ_UC16_BaoCaoCAI_msg_12" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#000000;strokeWidth=1;fontFamily=Helvetica;fontSize=10;fontColor=#000000;endArrow=open;dashed=1;labelBackgroundColor=#FFFFFF;" value="Hien thi dgvChiTiet &amp; bieu do tiet kiem ngan sach">
+          <mxGeometry relative="1" x="0.0909" y="-15" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="250" y="520" as="sourcePoint" />
+            <mxPoint x="85" y="520" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SEQ_UC16_BaoCaoCAI_msg_13" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#000000;strokeWidth=1;fontFamily=Helvetica;fontSize=10;fontColor=#000000;endArrow=block;endFill=1;labelBackgroundColor=#FFFFFF;" value="Xem bang chi tiet tung luot muon">
+          <mxGeometry relative="1" x="-0.0909" y="10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="85" y="555" as="sourcePoint" />
+            <mxPoint x="250" y="555" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SEQ_UC16_BaoCaoCAI_msg_14" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#000000;strokeWidth=1;fontFamily=Helvetica;fontSize=10;fontColor=#000000;endArrow=open;dashed=1;labelBackgroundColor=#FFFFFF;" value="Hien thi bang chi tiet va bieu do NCAV 4 hoc ky">
+          <mxGeometry relative="1" x="-0.0303" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="250" y="585" as="sourcePoint" />
+            <mxPoint x="85" y="585" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="g-vGMeUcm8IQGuIKz-G4-3" parent="1" style="shape=umlEntity;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;strokeWidth=1.5;" value="" vertex="1">
+          <mxGeometry height="36" width="38" x="1000" y="65" as="geometry" />
+        </mxCell>
+        <mxCell id="g-vGMeUcm8IQGuIKz-G4-4" parent="1" style="text;html=1;align=center;verticalAlign=top;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=10.5;fontFamily=Helvetica;fontColor=#000000;" value=": ThamSoCAI" vertex="1">
+          <mxGeometry height="30" width="90" x="975" y="105" as="geometry" />
+        </mxCell>
+        <mxCell id="g-vGMeUcm8IQGuIKz-G4-5" edge="1" parent="1" source="g-vGMeUcm8IQGuIKz-G4-6" style="endArrow=none;dashed=1;html=1;rounded=0;strokeColor=#000000;strokeWidth=1;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1020" y="133" as="sourcePoint" />
+            <mxPoint x="1020" y="630" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="g-vGMeUcm8IQGuIKz-G4-7" edge="1" parent="1" style="endArrow=none;dashed=1;html=1;rounded=0;strokeColor=#000000;strokeWidth=1;" target="g-vGMeUcm8IQGuIKz-G4-6" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1020" y="133" as="sourcePoint" />
+            <mxPoint x="1020" y="630" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="g-vGMeUcm8IQGuIKz-G4-6" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;strokeWidth=1;" value="" vertex="1">
+          <mxGeometry height="55" width="10" x="1015" y="400" as="geometry" />
+        </mxCell>
+        <mxCell id="g-vGMeUcm8IQGuIKz-G4-8" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#000000;strokeWidth=1;fontFamily=Helvetica;fontSize=10;fontColor=#000000;endArrow=block;endFill=1;labelBackgroundColor=#FFFFFF;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" target="g-vGMeUcm8IQGuIKz-G4-6" value="layThamSo()">
+          <mxGeometry relative="1" x="-0.1766" as="geometry">
+            <mxPoint x="445" y="413" as="sourcePoint" />
+            <mxPoint x="915" y="413" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="g-vGMeUcm8IQGuIKz-G4-9" edge="1" parent="1" source="g-vGMeUcm8IQGuIKz-G4-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#000000;strokeWidth=1;fontFamily=Helvetica;fontSize=10;fontColor=#000000;endArrow=open;dashed=1;labelBackgroundColor=#FFFFFF;exitX=0;exitY=0.75;exitDx=0;exitDy=0;" value="dsThamSoKinhTe">
+          <mxGeometry relative="1" x="-0.1073" y="-1" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="915" y="440" as="sourcePoint" />
+            <mxPoint x="445" y="440" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

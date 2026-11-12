@@ -1,0 +1,26 @@
+# Chỉ đưa lên GitHub những gì liệt kê bên dưới; mọi thứ khác trong thư mục đồ án được bỏ qua
+/*
+!/.gitignore
+!/README.md
+!/database/
+!/TaiLieu/
+!/quanlytaisan/
+
+# Sơ đồ: chỉ file nguồn .drawio và thư mục ảnh PNG
+!/So_do/
+/So_do/*
+!/So_do/*.drawio
+!/So_do/PNG/
+
+# Mã nguồn: bỏ thư mục build, thư viện tải về và cấu hình IDE
+quanlytaisan/target/
+quanlytaisan/.idea/
+quanlytaisan/HELP.md
+quanlytaisan/frontend/node_modules/
+quanlytaisan/frontend/dist/
+quanlytaisan/frontend/test_ssr.js
+*.bak
+*.log
+
+# Thông tin bí mật (mật khẩu CSDL) - KHÔNG BAO GIỜ đưa lên
+quanlytaisan/src/main/resources/application-secret.properties

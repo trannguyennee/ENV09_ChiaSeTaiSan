@@ -1,0 +1,238 @@
+<mxfile host="app.diagrams.net" agent="Antigravity OOSD System" pages="2">
+  <diagram id="STATE_TaiSan" name="TrangThai_TaiSan">
+    <mxGraphModel dx="1493" dy="764" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1350" pageHeight="850" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="tt_title" parent="1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=13;fontFamily=Helvetica;fontStyle=1;fontColor=#000000;" value="&lt;font style=&quot;font-size: 15px;&quot;&gt;Biểu đồ trạng thái lớp TaiSan&amp;nbsp;&lt;/font&gt;" vertex="1">
+          <mxGeometry height="30" width="220" x="500" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ts_start" parent="1" style="ellipse;fillColor=#000000;strokeColor=#000000;fontSize=13;" value="" vertex="1">
+          <mxGeometry height="30" width="30" x="1470" y="360" as="geometry" />
+        </mxCell>
+        <mxCell id="ts_moi" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=18;fillColor=#ffffff;strokeColor=#000000;strokeWidth=1.5;verticalAlign=top;spacingTop=4;fontColor=#000000;fontFamily=Helvetica;fontSize=13;" value="&lt;b&gt;Moi&lt;/b&gt;&lt;hr style=&quot;border-width: 1px medium medium; border-style: solid none none; border-color: rgb(0, 0, 0) currentcolor currentcolor; border-image: none; margin: 3px 0px;&quot;&gt;&lt;div style=&quot;text-align: left; font-size: 12px; padding: 0px 4px;&quot;&gt;entry/ TrangThai = &quot;Moi&quot;&lt;br&gt;entry/ choThuKhoKiemNhan()&lt;br&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="90" width="190" x="1230" y="330" as="geometry" />
+        </mxCell>
+        <mxCell id="ts_sansang" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=18;fillColor=#ffffff;strokeColor=#000000;strokeWidth=1.5;verticalAlign=top;spacingTop=4;fontColor=#000000;fontFamily=Helvetica;fontSize=13;" value="&lt;b&gt;San sang chia se&lt;/b&gt;&lt;hr style=&quot;border-width: 1px medium medium; border-style: solid none none; border-color: rgb(0, 0, 0) currentcolor currentcolor; border-image: none; margin: 3px 0px;&quot;&gt;&lt;div style=&quot;text-align: left; font-size: 12px; padding: 0px 4px;&quot;&gt;entry/ TrangThai = &quot;Sansangchiase&quot;&lt;br&gt;entry/ duaVaoKhoDungChung()&lt;br&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="90" width="210" x="420" y="225" as="geometry" />
+        </mxCell>
+        <mxCell id="ts_dangmuon" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=18;fillColor=#ffffff;strokeColor=#000000;strokeWidth=1.5;verticalAlign=top;spacingTop=4;fontColor=#000000;fontFamily=Helvetica;fontSize=13;" value="&lt;b&gt;Dang muon&lt;/b&gt;&lt;hr style=&quot;border-width: 1px medium medium; border-style: solid none none; border-color: rgb(0, 0, 0) currentcolor currentcolor; border-image: none; margin: 3px 0px;&quot;&gt;&lt;div style=&quot;text-align: left; font-size: 12px; padding: 0px 4px;&quot;&gt;entry/ TrangThai = &quot;Dang muon&quot;&lt;br&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="55" width="200" x="840" y="242.5" as="geometry" />
+        </mxCell>
+        <mxCell id="ts_canbaoduong" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=18;fillColor=#ffffff;strokeColor=#000000;strokeWidth=1.5;verticalAlign=top;spacingTop=4;fontColor=#000000;fontFamily=Helvetica;fontSize=13;" value="&lt;b&gt;Can bao duong&lt;/b&gt;&lt;hr style=&quot;border-width: 1px medium medium; border-style: solid none none; border-color: rgb(0, 0, 0) currentcolor currentcolor; border-image: none; margin: 3px 0px;&quot;&gt;&lt;div style=&quot;text-align: left; font-size: 12px; padding: 0px 4px;&quot;&gt;entry/ TrangThai = &quot;Can bao duong&quot;&lt;br&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="70" width="210" x="835" y="440" as="geometry" />
+        </mxCell>
+        <mxCell id="ts_dangbaoduong" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=18;fillColor=#ffffff;strokeColor=#000000;strokeWidth=1.5;verticalAlign=top;spacingTop=4;fontColor=#000000;fontFamily=Helvetica;fontSize=13;" value="&lt;b&gt;Dang bao duong&lt;/b&gt;&lt;hr style=&quot;border:none;border-top:1px solid #000000;margin:3px 0;&quot;&gt;&lt;div style=&quot;text-align: left; font-size: 12px; padding: 0px 4px;&quot;&gt;entry/ TrangThai = &quot;Dang bao duong&quot;&lt;br&gt;entry/ chuyenDonViSuaChua()&lt;br&gt;entry/ ghi NgayGuiBaoDuong&lt;/div&gt;" vertex="1">
+          <mxGeometry height="100" width="210" x="420" y="425" as="geometry" />
+        </mxCell>
+        <mxCell id="ts_dexuatthanhly" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=18;fillColor=#ffffff;strokeColor=#000000;strokeWidth=1.5;verticalAlign=top;spacingTop=4;fontColor=#000000;fontFamily=Helvetica;fontSize=13;" value="&lt;b&gt;De xuat thanh ly&lt;/b&gt;&lt;hr style=&quot;border:none;border-top:1px solid #000000;margin:3px 0;&quot;&gt;&lt;div style=&quot;text-align: left; font-size: 12px; padding: 0px 4px;&quot;&gt;entry/ TrangThai = &quot;De xuat thanh ly&quot;&lt;br&gt;entry/ dongKhoChiaSe()&lt;br&gt;entry/ lapHoSoThanhLy()&lt;/div&gt;" vertex="1">
+          <mxGeometry height="80" width="210" x="300" y="610" as="geometry" />
+        </mxCell>
+        <mxCell id="ts_dathanhly" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=18;fillColor=#ffffff;strokeColor=#000000;strokeWidth=1.5;verticalAlign=top;spacingTop=4;fontColor=#000000;fontFamily=Helvetica;fontSize=13;" value="&lt;b&gt;Da thanh ly&lt;/b&gt;&lt;hr style=&quot;border:none;border-top:1px solid #000000;margin:3px 0;&quot;&gt;&lt;div style=&quot;text-align: left; font-size: 12px; padding: 0px 4px;&quot;&gt;entry/ TrangThai = &quot;Da thanh ly&quot;&lt;br&gt;entry/ rutThietBiKhoiHeThong()&lt;/div&gt;" vertex="1">
+          <mxGeometry height="70" width="200" x="900" y="615" as="geometry" />
+        </mxCell>
+        <mxCell id="ts_end" parent="1" style="ellipse;html=1;shape=endState;fillColor=#000000;strokeColor=#000000;fontSize=13;" value="" vertex="1">
+          <mxGeometry height="30" width="30" x="1220" y="635" as="geometry" />
+        </mxCell>
+        <mxCell id="tr_start_moi" edge="1" parent="1" source="ts_start" style="rounded=0;html=1;strokeColor=#000000;strokeWidth=1.2;fontColor=#000000;fontSize=12;fontFamily=Helvetica;align=left;verticalAlign=bottom;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" target="ts_moi" value="DangKyTaiSan() [BR01: hợp lệ, HienTrang ≥ 50]&lt;br&gt;/ lưu thông tin, gán PhongBanSoHuu">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-40" y="-60" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tr_moi_sansang" edge="1" parent="1" source="ts_moi" target="ts_sansang" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#000000;strokeWidth=1.2;fontColor=#000000;fontSize=12;fontFamily=Helvetica;align=center;verticalAlign=bottom;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.75;entryY=0;entryDx=0;entryDy=0;" value="KiemNhan() [BR21: HienTrang ≥ 50]">
+          <mxGeometry relative="1" as="geometry"><Array as="points"><mxPoint x="1325" y="185" /><mxPoint x="577" y="185" /></Array><mxPoint x="0" y="-2" as="offset" /></mxGeometry>
+        </mxCell>
+        <mxCell id="tr_moi_canbaoduong" edge="1" parent="1" source="ts_moi" target="ts_canbaoduong" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#000000;strokeWidth=1.2;fontColor=#000000;fontSize=12;fontFamily=Helvetica;align=center;verticalAlign=bottom;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" value="KiemNhan() [BR21: HienTrang &amp;lt; 50]">
+          <mxGeometry relative="1" as="geometry"><Array as="points"><mxPoint x="1325" y="475" /></Array><mxPoint x="60" y="20" as="offset" /></mxGeometry>
+        </mxCell>
+        <mxCell id="tr_sansang_dangmuon" edge="1" parent="1" source="ts_sansang" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#000000;strokeWidth=1.2;fontColor=#000000;fontSize=13;fontFamily=Helvetica;align=center;verticalAlign=bottom;" target="ts_dangmuon" value="BanGiao(maBB)&lt;br&gt;[BR06: máy tốt, đủ phụ kiện]&amp;nbsp;&lt;div&gt;&amp;nbsp;BR07&lt;/div&gt;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tr_dangmuon_sansang" edge="1" parent="1" source="ts_dangmuon" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#000000;strokeWidth=1.2;fontColor=#000000;fontSize=13;fontFamily=Helvetica;align=center;verticalAlign=bottom;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="ts_sansang" value="ThuHoi(maBB)&amp;nbsp;&lt;div&gt;[BR09: TinhTrangSau = Tốt và HienTrang − TyLeHaoMon ≥ 50]&lt;/div&gt;">
+          <mxGeometry relative="1" x="-0.05" y="-12" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="880" y="140" />
+              <mxPoint x="565" y="140" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tr_dangmuon_canbaoduong" edge="1" parent="1" source="ts_dangmuon" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#000000;strokeWidth=1.2;fontColor=#000000;fontSize=13;fontFamily=Helvetica;align=left;verticalAlign=middle;" target="ts_canbaoduong" value="ThuHoi(maBB)&amp;nbsp;&lt;div&gt;[BR09: hỏng, mất phụ kiện hoặc HienTrang &amp;lt; 50]&lt;/div&gt;">
+          <mxGeometry relative="1" x="0.1" y="10" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tr_canbd_dangbd" edge="1" parent="1" source="ts_canbaoduong" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#000000;strokeWidth=1.2;fontColor=#000000;fontSize=13;fontFamily=Helvetica;align=center;verticalAlign=bottom;" target="ts_dangbaoduong" value="LapPhieuBaoDuong(maPBD)&#xa;[don vi sua tiep nhan]">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tr_dangbd_sansang" edge="1" parent="1" source="ts_dangbaoduong" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#000000;strokeWidth=1.2;fontColor=#000000;fontSize=13;fontFamily=Helvetica;align=left;verticalAlign=middle;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" target="ts_sansang" value="NghiemThuBaoDuong()&amp;nbsp;&lt;div&gt;&lt;span style=&quot;background-color: light-dark(#ffffff, var(--ge-dark-color, #121212)); color: light-dark(rgb(0, 0, 0), rgb(237, 237, 237));&quot;&gt;[BR11, BR12: HienTrangSauSuaChua ≥ 50]&lt;/span&gt;&lt;/div&gt;">
+          <mxGeometry relative="1" x="-0.1429" y="245" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tr_dangbd_dexuat" edge="1" parent="1" source="ts_dangbaoduong" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#000000;strokeWidth=1.2;fontColor=#000000;fontSize=13;fontFamily=Helvetica;align=left;verticalAlign=middle;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" target="ts_dexuatthanhly" value="NghiemThuBaoDuong()&amp;nbsp;&lt;div&gt;[không thể sửa hoặc HienTrangSauSuaChua &amp;lt; 50]&lt;/div&gt;">
+          <mxGeometry relative="1" x="0.2" y="-125" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tr_dexuat_dathanhly" edge="1" parent="1" source="ts_dexuatthanhly" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#000000;strokeWidth=1.2;fontColor=#000000;fontSize=13;fontFamily=Helvetica;align=center;verticalAlign=bottom;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" target="ts_dathanhly" value="PheDuyetThanhLy() [Ban Giám hiệu ký duyệt] / ghi HoSoThanhLy">
+          <mxGeometry relative="1" x="-0.0143" y="10" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="445" y="760" />
+              <mxPoint x="1000" y="760" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tr_dathanhly_end" edge="1" parent="1" source="ts_dathanhly" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#000000;strokeWidth=1.2;fontColor=#000000;fontSize=13;fontFamily=Helvetica;align=center;verticalAlign=bottom;" target="ts_end" value="HoanTatThanhLy()">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="b9tW0WC_v8lk7alw8rqi-1" edge="1" parent="1" source="ts_dexuatthanhly" style="rounded=0;html=1;strokeColor=#000000;strokeWidth=1.2;fontColor=#000000;fontSize=13;fontFamily=Helvetica;align=center;verticalAlign=bottom;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.209;entryY=1.031;entryDx=0;entryDy=0;edgeStyle=orthogonalEdgeStyle;entryPerimeter=0;" target="ts_canbaoduong" value="BacBoThanhLy() [HienTrang &amp;lt; 50 hoặc đã kết luận Không thể sửa]">
+          <mxGeometry relative="1" x="-0.3113" y="-30" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="1120" y="505" as="sourcePoint" />
+            <mxPoint x="1675" y="500" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="b9tW0WC_v8lk7alw8rqi-2" edge="1" parent="1" source="ts_sansang" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#000000;strokeWidth=1.2;fontColor=#000000;fontSize=13;fontFamily=Helvetica;align=left;verticalAlign=middle;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=0.25;entryY=0;entryDx=0;entryDy=0;" target="ts_canbaoduong" value="PhatHienLoiKhiXuatKho() [BR06]&lt;div&gt;HuyBanGiao&lt;/div&gt;">
+          <mxGeometry relative="1" x="-0.4491" y="22" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="1190" y="150" as="sourcePoint" />
+            <mxPoint x="1190" y="265" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NpGHhszkoxaS8sKzcRZQ-2" edge="1" parent="1" source="ts_sansang" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#000000;strokeWidth=1.2;fontColor=#000000;fontSize=13;fontFamily=Helvetica;align=left;verticalAlign=middle;exitX=0;exitY=0.75;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="ts_dexuatthanhly" value="DeXuatThanhLy()&amp;nbsp;&lt;div&gt;[BR15: hết niên hạn của loại tài sản]&lt;/div&gt;">
+          <mxGeometry relative="1" x="0.187" y="-70" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="230" y="295" />
+              <mxPoint x="230" y="650" />
+            </Array>
+            <mxPoint x="160" y="390" as="sourcePoint" />
+            <mxPoint x="160" y="505" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NpGHhszkoxaS8sKzcRZQ-3" edge="1" parent="1" source="ts_canbaoduong" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#000000;strokeWidth=1.2;fontColor=#000000;fontSize=13;fontFamily=Helvetica;align=left;verticalAlign=middle;exitX=0;exitY=0.75;exitDx=0;exitDy=0;entryX=1;entryY=0.25;entryDx=0;entryDy=0;" target="ts_dexuatthanhly" value="DeXuatThanhLy()&amp;nbsp;&lt;div&gt;[BR15: chi phí sửa lũy kế ≥ 70% nguyên giá]&lt;/div&gt;">
+          <mxGeometry relative="1" x="0.6389" y="10" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="830" y="492.5" />
+              <mxPoint x="830" y="590" />
+              <mxPoint x="510" y="590" />
+            </Array>
+            <mxPoint x="1010" y="570" as="sourcePoint" />
+            <mxPoint x="1010" y="685" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NpGHhszkoxaS8sKzcRZQ-4" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&amp;nbsp;“Mọi chuyển trạng thái được trigger &lt;code dir=&quot;ltr&quot;&gt;trg_Validate_ChuyenTrangThaiTaiSan&lt;/code&gt; kiểm tra theo ma trận Hình 10 và tự ghi vào &lt;code dir=&quot;ltr&quot;&gt;LichSuTrangThaiTaiSan&lt;/code&gt;. Điều kiện thu hồi, nghiệm thu áp dụng cho từng máy.”" vertex="1">
+          <mxGeometry height="100" width="260" x="1030" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="NpGHhszkoxaS8sKzcRZQ-6" edge="1" parent="1" source="ts_dexuatthanhly" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#000000;strokeWidth=1.2;fontColor=#000000;fontSize=13;fontFamily=Helvetica;align=left;verticalAlign=middle;exitX=0;exitY=0.75;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="ts_sansang" value="BacBoThanhLy()&amp;nbsp;&lt;div&gt;[HienTrang ≥ 50 và chưa kết luận Không thể sửa]&lt;/div&gt;">
+          <mxGeometry relative="1" x="0.1136" y="80" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="120" y="670" />
+              <mxPoint x="120" y="270" />
+            </Array>
+            <mxPoint x="30" y="760" as="sourcePoint" />
+            <mxPoint x="30" y="902" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="STATE_PhieuMuon" name="TrangThai_PhieuMuon">
+    <mxGraphModel dx="2591" dy="635" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1350" pageHeight="850" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="pm_title" parent="1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=13;fontFamily=Helvetica;fontStyle=1;fontColor=#000000;" value="&lt;blockquote style=&quot;margin: 0px 0px 0px 40px; border-width: medium; border-style: none; border-color: currentcolor; border-image: none; padding: 0px;&quot;&gt;&lt;font style=&quot;font-size: 15px;&quot;&gt;Biểu đồ trạng thái lớp PhieuMuon&lt;/font&gt;&lt;/blockquote&gt;" vertex="1">
+          <mxGeometry height="30" width="290" x="490" y="20" as="geometry" />
+        </mxCell>
+        <mxCell id="pm_start" parent="1" style="ellipse;fillColor=#000000;strokeColor=#000000;fontSize=13;" value="" vertex="1">
+          <mxGeometry height="30" width="30" x="-130" y="265" as="geometry" />
+        </mxCell>
+        <mxCell id="pm_choduyet" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=18;fillColor=#ffffff;strokeColor=#000000;strokeWidth=1.5;verticalAlign=top;spacingTop=4;fontColor=#000000;fontFamily=Helvetica;fontSize=13;" value="&lt;b&gt;Cho duyet&lt;/b&gt;&lt;hr style=&quot;border:none;border-top:1px solid #000000;margin:3px 0;&quot;&gt;&lt;div style=&quot;text-align: left; font-size: 12px; padding: 0px 4px;&quot;&gt;entry/ TrangThai = &quot;Cho duyet&quot;&lt;br&gt;entry/ luu ThoiGianMuon, MucDich&lt;br&gt;entry/ gan MaPhieuMuon&lt;/div&gt;" vertex="1">
+          <mxGeometry height="90" width="190" x="80" y="235" as="geometry" />
+        </mxCell>
+        <mxCell id="pm_dahuy" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=18;fillColor=#ffffff;strokeColor=#000000;strokeWidth=1.5;verticalAlign=top;spacingTop=4;fontColor=#000000;fontFamily=Helvetica;fontSize=13;" value="&lt;b&gt;Da huy&lt;/b&gt;&lt;hr style=&quot;border-width: 1px medium medium; border-style: solid none none; border-color: rgb(0, 0, 0) currentcolor currentcolor; border-image: none; margin: 3px 0px;&quot;&gt;&lt;div style=&quot;text-align: left; font-size: 12px; padding: 0px 4px;&quot;&gt;entry/ TrangThai = &quot;Dahuy&quot;&lt;br&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="70" width="180" x="455" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="pm_end_huy" parent="1" style="ellipse;html=1;shape=endState;fillColor=#000000;strokeColor=#000000;fontSize=13;" value="" vertex="1">
+          <mxGeometry height="30" width="30" x="830" y="70" as="geometry" />
+        </mxCell>
+        <mxCell id="pm_tuchoi" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=18;fillColor=#ffffff;strokeColor=#000000;strokeWidth=1.5;verticalAlign=top;spacingTop=4;fontColor=#000000;fontFamily=Helvetica;fontSize=13;" value="&lt;b&gt;Tu choi&lt;/b&gt;&lt;hr style=&quot;border-width: 1px medium medium; border-style: solid none none; border-color: rgb(0, 0, 0) currentcolor currentcolor; border-image: none; margin: 3px 0px;&quot;&gt;&lt;div style=&quot;text-align: left; font-size: 12px; padding: 0px 4px;&quot;&gt;entry/ TrangThai = &quot;Tuchoi&quot;&lt;br&gt;entry/ ghi LyDoTuChoi&lt;br&gt;entry/ thongBaoNguoiMuon()&lt;/div&gt;" vertex="1">
+          <mxGeometry height="80" width="180" x="465" y="520" as="geometry" />
+        </mxCell>
+        <mxCell id="pm_end_tuchoi" parent="1" style="ellipse;html=1;shape=endState;fillColor=#000000;strokeColor=#000000;fontSize=13;" value="" vertex="1">
+          <mxGeometry height="30" width="30" x="725" y="545" as="geometry" />
+        </mxCell>
+        <mxCell id="pm_daduyet" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=18;fillColor=#ffffff;strokeColor=#000000;strokeWidth=1.5;verticalAlign=top;spacingTop=4;fontColor=#000000;fontFamily=Helvetica;fontSize=13;" value="&lt;b&gt;Da duyet&lt;/b&gt;&lt;hr style=&quot;border-width: 1px medium medium; border-style: solid none none; border-color: rgb(0, 0, 0) currentcolor currentcolor; border-image: none; margin: 3px 0px;&quot;&gt;&lt;div style=&quot;text-align: left; font-size: 12px; padding: 0px 4px;&quot;&gt;entry/ TrangThai = &quot;Daduyet&quot;&lt;br&gt;entry/ ghi NguoiDuyet, NgayDuyet&lt;br&gt;entry/ guiThongBaoChuanBiNhanMay()&lt;/div&gt;" vertex="1">
+          <mxGeometry height="110" width="200" x="445" y="225" as="geometry" />
+        </mxCell>
+        <mxCell id="pm_dangthuchien" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=18;fillColor=#ffffff;strokeColor=#000000;strokeWidth=1.5;verticalAlign=top;spacingTop=4;fontColor=#000000;fontFamily=Helvetica;fontSize=13;" value="&lt;b&gt;Dang thuc hien&lt;/b&gt;&lt;hr style=&quot;border-width: 1px medium medium; border-style: solid none none; border-color: rgb(0, 0, 0) currentcolor currentcolor; border-image: none; margin: 3px 0px;&quot;&gt;&lt;div style=&quot;text-align: left; font-size: 12px; padding: 0px 4px;&quot;&gt;entry/ TrangThai = &quot;Dangthuchien&quot;&lt;br&gt;entry/ luu BienBanBanGiao&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left; font-size: 12px; padding: 0px 4px;&quot;&gt;do/ QuetQuaHan() [BR14: hôm nay &amp;gt; NgayHenTra] / CoQuaHan = 1, hiển thị cảnh báo&lt;/div&gt;" vertex="1">
+          <mxGeometry height="130" width="200" x="960" y="215" as="geometry" />
+        </mxCell>
+        <mxCell id="pm_hoantat" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=18;fillColor=#ffffff;strokeColor=#000000;strokeWidth=1.5;verticalAlign=top;spacingTop=4;fontColor=#000000;fontFamily=Helvetica;fontSize=13;" value="&lt;b&gt;Hoan tat&lt;/b&gt;&lt;hr style=&quot;border-width: 1px medium medium; border-style: solid none none; border-color: rgb(0, 0, 0) currentcolor currentcolor; border-image: none; margin: 3px 0px;&quot;&gt;&lt;div style=&quot;text-align: left; font-size: 12px; padding: 0px 4px;&quot;&gt;entry/ TrangThai = &quot;Hoantat&quot;&lt;br&gt;entry/ dongPhieuMuon()&lt;/div&gt;" vertex="1">
+          <mxGeometry height="80" width="190" x="1340" y="240" as="geometry" />
+        </mxCell>
+        <mxCell id="pm_end_main" parent="1" style="ellipse;html=1;shape=endState;fillColor=#000000;strokeColor=#000000;fontSize=13;" value="" vertex="1">
+          <mxGeometry height="30" width="30" x="1660" y="265" as="geometry" />
+        </mxCell>
+        <mxCell id="prm_start_cho" edge="1" parent="1" source="pm_start" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#000000;strokeWidth=1.2;fontColor=#000000;fontSize=13;fontFamily=Helvetica;align=center;verticalAlign=bottom;" target="pm_choduyet" value="LapYeuCauMuon()&amp;nbsp;&lt;div&gt;[BR02, BR03, BR05, BR13]&lt;/div&gt;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="prm_cho_huy" edge="1" parent="1" source="pm_choduyet" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#000000;strokeWidth=1.2;fontColor=#000000;fontSize=13;fontFamily=Helvetica;align=center;verticalAlign=bottom;" target="pm_dahuy" value="HuyYeuCau(maPM)&amp;nbsp;&lt;div&gt;[BR17: người mượn hủy khi còn Chờ duyệt]&lt;/div&gt;">
+          <mxGeometry relative="1" x="0.1014" y="5" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="265" y="80" />
+              <mxPoint x="520" y="80" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="prm_huy_end" edge="1" parent="1" source="pm_dahuy" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#000000;strokeWidth=1.2;fontColor=#000000;fontSize=13;fontFamily=Helvetica;align=center;verticalAlign=bottom;" target="pm_end_huy" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="prm_cho_tuchoi" edge="1" parent="1" source="pm_choduyet" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#000000;strokeWidth=1.2;fontColor=#000000;fontSize=13;fontFamily=Helvetica;align=center;verticalAlign=top;exitX=1;exitY=0.75;exitDx=0;exitDy=0;" target="pm_tuchoi" value="TuChoi(lyDo)&#xa;[thu kho khong duyet]">
+          <mxGeometry relative="1" x="0.4154" y="10" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="270" y="560" />
+            </Array>
+            <mxPoint x="270" y="459.9999999999999" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="prm_tuchoi_end" edge="1" parent="1" source="pm_tuchoi" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#000000;strokeWidth=1.2;fontColor=#000000;fontSize=13;fontFamily=Helvetica;align=center;verticalAlign=bottom;" target="pm_end_tuchoi" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="prm_cho_daduyet" edge="1" parent="1" source="pm_choduyet" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#000000;strokeWidth=1.2;fontColor=#000000;fontSize=13;fontFamily=Helvetica;align=center;verticalAlign=bottom;" target="pm_daduyet" value="PheDuyet(maPM)&amp;nbsp;&lt;div&gt;[BR04: kiểm tra lại trùng lịch]&lt;/div&gt;">
+          <mxGeometry relative="1" x="-0.0769" y="10" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="prm_daduyet_dangthuchien" edge="1" parent="1" source="pm_daduyet" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#000000;strokeWidth=1.2;fontColor=#000000;fontSize=13;fontFamily=Helvetica;align=center;verticalAlign=bottom;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" target="pm_dangthuchien" value="BanGiao(maBB)&amp;nbsp;&lt;div&gt;[BR06: NgayMuon ≤ hôm nay ≤ NgayHenTra, mọi máy Sẵn sàng chia sẻ, hai bên ký]&lt;/div&gt;&lt;div&gt;&amp;nbsp;BR07&lt;/div&gt;">
+          <mxGeometry relative="1" x="0.0061" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="699.9999999999995" y="280" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="prm_dangth_hoantat" edge="1" parent="1" source="pm_dangthuchien" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#000000;strokeWidth=1.2;fontColor=#000000;fontSize=13;fontFamily=Helvetica;align=center;verticalAlign=bottom;" target="pm_hoantat" value="ThuHoi(maBB) [BR08] /&amp;nbsp;&lt;div&gt;BR09: cập nhật từng máy&lt;/div&gt;">
+          <mxGeometry relative="1" x="-0.0588" y="10" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="prm_hoantat_end" edge="1" parent="1" source="pm_hoantat" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#000000;strokeWidth=1.2;fontColor=#000000;fontSize=13;fontFamily=Helvetica;align=center;verticalAlign=bottom;" target="pm_end_main" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hdB83mrhs2rFJO3R6bqx-1" edge="1" parent="1" source="pm_daduyet" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#000000;strokeWidth=1.2;fontColor=#000000;fontSize=13;fontFamily=Helvetica;align=center;verticalAlign=bottom;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" target="pm_dahuy" value="   HuyBanGiao()&amp;nbsp;&lt;div&gt;[Thủ kho hủy (BR17) hoặc&amp;nbsp;&lt;div&gt;máy lỗi (BR06)] TuDongHuy()&amp;nbsp;&lt;/div&gt;&lt;div&gt;[quá NgayMuon + TS07 ngày hoặc NgayHenTra &amp;lt; hôm nay, chưa bàn giao]&lt;/div&gt;&lt;/div&gt;">
+          <mxGeometry relative="1" x="-0.7143" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="490" y="520" as="sourcePoint" />
+            <mxPoint x="685" y="430" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
