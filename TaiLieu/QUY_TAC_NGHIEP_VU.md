@@ -5,7 +5,7 @@
 **GIẢNG VIÊN HƯỚNG DẪN:** ThS. PHẠM TRỌNG HUYNH  
 ---
 
-## MỤC 0: BA QUYẾT ĐỊNH NGHIỆP VỤ CỐT LÕI (ĐƠN GIẢN HÓA TOÀN DIỆN)
+## MỤC 0: BA QUYẾT ĐỊNH NGHIỆP VỤ CỐT LÕI 
 1. **Một phiếu mượn nhiều thiết bị (Giữ nguyên):**  
    - Bảng `ChiTietPhieuMuon` lưu từng thiết bị cụ thể thuộc phiếu mượn (cùng khoảng thời gian). Hệ thống kiểm tra điều kiện khả dụng độc lập cho từng thiết bị.
    - Khi trả máy: Kiểm tra và đánh giá hao mòn riêng cho từng máy.
