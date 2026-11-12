@@ -3,8 +3,6 @@
 **ĐƠN VỊ:** ĐẠI HỌC TÀI NGUYÊN VÀ MÔI TRƯỜNG TP.HCM (HCMUNRE)  
 **SINH VIÊN:** TRẦN NGUYÊN - MSSV: 1250080121 - LỚP: 12_ĐH_CNPM2  
 **GIẢNG VIÊN HƯỚNG DẪN:** ThS. PHẠM TRỌNG HUYNH  
-**PHIÊN BẢN:** V3.2 (BỔ SUNG trạng thái Mới & BR21 kiểm nhận tài sản; BỔ SUNG: BR06 kiểm tra ngày bắt đầu & trạng thái máy khi xuất kho, BR09 bắt buộc thông tin hư hỏng, BR10 trigger CSDL, BR12 bác bỏ thanh lý, BR18 số ngày tính CAI, BR-EXTRA-01 tham số TS07)
-
 ---
 
 ## MỤC 0: BA QUYẾT ĐỊNH NGHIỆP VỤ CỐT LÕI (ĐƠN GIẢN HÓA TOÀN DIỆN)
