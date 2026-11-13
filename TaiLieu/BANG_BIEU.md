@@ -2,7 +2,7 @@
 
 Toàn bộ bảng biểu trong báo cáo Word *Hệ thống chia sẻ và tái sử dụng tài sản nội bộ*, xuất nguyên văn để đối chiếu. Số và tên bảng giữ đúng như trong báo cáo; các bảng đặc tả Use Case (mục 2.4) trong báo cáo không đánh số nên được ghi theo tên Use Case.
 
-Gồm **69 bảng có đánh số**, **17 bảng đặc tả Use Case** và **1 bảng danh sách Use Case**.
+Gồm **70 bảng có đánh số**, **17 bảng đặc tả Use Case** và **1 bảng danh sách Use Case**.
 
 ## Mục lục
 
@@ -99,7 +99,8 @@ Gồm **69 bảng có đánh số**, **17 bảng đặc tả Use Case** và **1 
   - [Bảng 67. Danh sách các màn hình](#bảng-67-danh-sách-các-màn-hình)
 - **Chương 7: Kết Luận**
   - [Bảng 68. Công cụ sử dụng trong quá trình phát triển](#bảng-68-công-cụ-sử-dụng-trong-quá-trình-phát-triển)
-  - [Bảng 69. Bảng phân chia công việc](#bảng-69-bảng-phân-chia-công-việc)
+  - [Bảng 69. Kết quả kiểm thử theo nhóm chức năng](#bảng-69-kết-quả-kiểm-thử-theo-nhóm-chức-năng)
+  - [Bảng 70. Bảng phân chia công việc](#bảng-70-bảng-phân-chia-công-việc)
 - **TÀI LIỆU THAM KHẢO**
 
 ---
@@ -1282,7 +1283,33 @@ Gồm **69 bảng có đánh số**, **17 bảng đặc tả Use Case** và **1 
 | Kiểm thử API | Swagger UI, script kiểm thử đầu cuối | Kiểm tra API và quy tắc nghiệp vụ |
 | Quản lý tiến độ | Microsoft Project | Lập lịch thực hiện đề tài |
 
-### Bảng 69. Bảng phân chia công việc
+### Bảng 69. Kết quả kiểm thử theo nhóm chức năng
+
+| Mã | Use Case / Quy tắc | Nội dung kiểm thử | Kết quả mong đợi |
+|---|---|---|---|
+| TC01 | UC01, phân quyền | Đăng nhập 4 vai trò; gọi API khi chưa đăng nhập; dùng mã băm thay mật khẩu; Nhân viên gọi chức năng của vai trò khác | Vào đúng giao diện theo vai trò; trả 401 khi chưa đăng nhập; từ chối mã băm; trả 403 khi sai quyền |
+| TC02 | UC02 | Thêm phòng ban trùng mã | Bị chặn, báo lỗi trùng mã |
+| TC03 | UC03 | Thêm loại tài sản hợp lệ; trùng mã; nhóm không hợp lệ; niên hạn 0 năm | Thêm thành công và hiện trong danh mục; 3 trường hợp sai bị chặn |
+| TC04 | UC04 | Cấp tài khoản; trùng tên đăng nhập; email sai; vai trò sai; khóa rồi mở khóa tài khoản | Mật khẩu lưu dạng băm SHA-256; dữ liệu sai bị chặn; khóa thì không đăng nhập được, mở khóa thì đăng nhập lại được |
+| TC05 | UC04, BR-EXTRA-02 | Sửa tham số: TS02 > TS03, TS03 < TS02, TS07 = 40 | Bị chặn; TS07 = 2 được chấp nhận |
+| TC06 | UC05, BR01 | Khai báo tài sản hiện trạng 40%; khai báo hợp lệ | 40% bị chặn; tài sản mới ở trạng thái Mới |
+| TC07 | UC12, BR21 | Thủ kho kiểm nhận đạt; kiểm nhận hiện trạng thực tế 40%; Nhân viên kiểm nhận | Chuyển Sẵn sàng chia sẻ / Cần bảo dưỡng; Nhân viên bị 403; chỉ kiểm nhận được máy Mới |
+| TC08 | UC06, BR03, BR10 | Tra cứu thiết bị khả dụng; chèn trực tiếp máy không khả dụng vào phiếu | Chỉ có máy Sẵn sàng chia sẻ, hiện trạng ≥ 50%; trigger CSDL chặn |
+| TC09 | UC07 | Xem lịch sử mượn của đơn vị và lịch sử vòng đời tài sản | Đúng phiếu của đơn vị; lịch sử ghi đủ chuyển trạng thái, mới nhất trước |
+| TC10 | UC08, BR02, BR05 | Lập phiếu nhiều thiết bị; mượn quá 30 ngày; mượn máy của chính đơn vị | Lập phiếu thành công; 2 trường hợp sai bị chặn |
+| TC11 | UC08, BR13 | Đơn vị có phiếu quá hạn hoặc đủ 5 phiếu chưa hoàn tất lập phiếu mới | Bị chặn; thu hồi xong thì quyền mượn tự khôi phục |
+| TC12 | UC09, BR04, BR17 | Duyệt hai phiếu trùng lịch cùng máy; chủ phiếu hủy phiếu Chờ duyệt | Phiếu sau bị chặn; hủy thành công |
+| TC13 | UC10, BR06 | Bàn giao khi có máy lỗi, chưa đến ngày mượn, máy còn đang mượn; hủy bàn giao | Bị chặn; khi hủy, máy lỗi chuyển Cần bảo dưỡng |
+| TC14 | UC11, BR08, BR09 | Thu hồi máy tốt và máy hỏng; thiếu mô tả hư hỏng; trả máy ngoài phiếu | Phân luồng đúng; bồi thường = 10% × 120 triệu = 12 triệu; trường hợp sai bị chặn |
+| TC15 | UC13, BR11, BR12 | Nghiệm thu đạt nhưng 40%; kết luận Không thể sửa; nghiệm thu đạt 80% | 40% bị chặn; chuyển Đề xuất thanh lý; máy về Sẵn sàng chia sẻ |
+| TC16 | UC14, BR15 | Đề xuất thanh lý thiếu căn cứ; Thủ kho ký duyệt; Lãnh đạo duyệt và bác bỏ | Bị chặn; Thủ kho bị 403; bác bỏ máy Không thể sửa thì về Cần bảo dưỡng |
+| TC17 | UC15 | Báo cáo hiệu suất khai thác từng tài sản | Đúng số lượt mượn và tổng giá trị tránh mua; đủ mọi tài sản; Nhân viên bị 403 |
+| TC18 | UC16, BR18, BR19 | Lượt mượn ngắn hạn (D tính CAI = 2) và dài hạn (D = 10 ngày) | V = 2 × 1,5% × 15 triệu = 450.000 đ; V = 100% nguyên giá = 15 triệu |
+| TC19 | UC16, BR20 | Tính NCAV sau 1 lượt mượn dài hạn và 1 phiếu bảo dưỡng 2,8 triệu | NCAV tăng đúng 12,2 triệu; báo cáo theo kỳ cùng cách tính |
+| TC20 | UC17, BR14, BR-EXTRA-01 | Quét quá hạn; phiếu Đã duyệt không nhận máy quá 3 ngày | Bật cờ quá hạn và giữ cờ sau khi hoàn tất; phiếu tự hủy |
+| TC21 | BR16 | Xóa phòng ban, loại tài sản, tài sản đang có liên kết | CSDL từ chối xóa |
+
+### Bảng 70. Bảng phân chia công việc
 
 | STT | Hạng mục | Nội dung | Người thực hiện | Kết quả |
 |---|---|---|---|---|
@@ -1292,7 +1319,7 @@ Gồm **69 bảng có đánh số**, **17 bảng đặc tả Use Case** và **1 
 | 4 | Thiết kế dữ liệu | ERD 14 bảng, thủ tục, trigger, view | Trần Nguyên | Chương 4, script SQL |
 | 5 | Thiết kế kiến trúc | Kiến trúc nhiều tầng, phân quyền | Trần Nguyên | Chương 5 |
 | 6 | Xây dựng ứng dụng | Backend Spring Boot, giao diện React | Trần Nguyên | Mã nguồn quanlytaisan |
-| 7 | Kiểm thử, hoàn thiện báo cáo | 70 ca kiểm thử API, chụp giao diện, báo cáo | Trần Nguyên | Chương 6, 7 |
+| 7 | Kiểm thử, hoàn thiện báo cáo | 103 ca kiểm thử API, chụp giao diện, báo cáo | Trần Nguyên | Chương 6, 7 |
 
 ---
 

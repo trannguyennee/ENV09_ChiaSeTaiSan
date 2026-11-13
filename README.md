@@ -35,6 +35,7 @@ Các khoa, phòng trong trường có nhiều thiết bị chuyên dụng (máy 
 │   ├── src/main/java/...             Backend Spring Boot (controller, service, dao, entity, config)
 │   ├── src/main/resources/           Cấu hình và giao diện đã build (static/)
 │   └── frontend/                     Mã nguồn giao diện React
+├── kiem_thu/                         Kịch bản kiểm thử API đầu cuối (103 ca)
 ├── So_do/
 │   ├── *.drawio                      File nguồn sơ đồ (mở bằng draw.io / diagrams.net)
 │   └── PNG/                          Ảnh xuất của sơ đồ và ảnh chụp giao diện
@@ -42,7 +43,7 @@ Các khoa, phòng trong trường có nhiều thiết bị chuyên dụng (máy 
 │       ├── ERD/  KienTruc/  ToChuc/
 │       └── GiaoDien/                 21 ảnh chụp màn hình dùng trong báo cáo
 └── TaiLieu/
-    ├── BANG_BIEU.md                  Toàn bộ bảng biểu trong báo cáo (69 bảng + 18 bảng Use Case)
+    ├── BANG_BIEU.md                  Toàn bộ bảng biểu trong báo cáo (70 bảng + 18 bảng Use Case)
     ├── DANH_MUC_HINH.md              Đối chiếu Hình 1 - 59 trong báo cáo với file PNG và .drawio
     └── QUY_TAC_NGHIEP_VU.md          21 quy tắc nghiệp vụ, đặc tả lớp và 14 bảng CSDL
 ```
@@ -104,6 +105,29 @@ npm install
 npm run dev      # chạy thử ở http://localhost:5173, gọi API sang cổng 8080
 npm run build    # build vào ../src/main/resources/static
 ```
+
+## Kiểm thử
+
+Thư mục `kiem_thu/` chứa 2 kịch bản kiểm thử API đầu cuối (Python 3, không cần cài thêm thư viện), tổng cộng **103 ca, kết quả 103/103 đạt** (Bảng 69 trong báo cáo):
+
+- `kiem_thu_chinh_70_ca.py`: luồng chính mượn - trả, bảo dưỡng, thanh lý, quá hạn, tính CAI, phân quyền.
+- `kiem_thu_bo_sung_33_ca.py`: UC03, UC04, UC06, UC07, UC15, BR16, BR19, BR20.
+
+Mỗi kịch bản cần một **CSDL thử nghiệm riêng mới tạo** (để không ảnh hưởng dữ liệu thật) và server chạy ở cổng 8090:
+
+```bash
+# 1. Tạo CSDL ENV09_Test từ script (đổi tên CSDL trong script)
+sed 's/ENV09_QuanLyTaiSan/ENV09_Test/g' database/ENV09_QuanLyTaiSan.sql > env09_test.sql
+sqlcmd -S localhost -U sa -P <mat_khau> -C -f 65001 -i env09_test.sql
+
+# 2. Chạy server trỏ vào CSDL thử nghiệm
+java -jar quanlytaisan/target/quanlytaisan-0.0.1-SNAPSHOT.jar --server.port=8090 --spring.datasource.url="jdbc:sqlserver://localhost:1433;databaseName=ENV09_Test;encrypt=true;trustServerCertificate=true"
+
+# 3. Chạy kiểm thử (mật khẩu SQL Server lấy từ biến môi trường DB_PASSWORD)
+DB_PASSWORD=<mat_khau> python kiem_thu/kiem_thu_chinh_70_ca.py
+```
+
+Chạy kịch bản thứ hai trên một CSDL `ENV09_Test` tạo lại từ đầu.
 
 ## Tài khoản dùng thử
 
