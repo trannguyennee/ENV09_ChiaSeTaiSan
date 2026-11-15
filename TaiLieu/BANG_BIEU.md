@@ -14,10 +14,14 @@ Gồm **70 bảng có đánh số**, **17 bảng đặc tả Use Case** và **1 
   - [Bảng 5. Danh sách yêu cầu phi chức năng](#bảng-5-danh-sách-yêu-cầu-phi-chức-năng)
   - [Bảng 6. Danh sách các biểu mẫu và quy định](#bảng-6-danh-sách-các-biểu-mẫu-và-quy-định)
   - [Bảng 7. Biểu mẫu BM1 - Phiếu khai báo tài sản nhàn rỗi](#bảng-7-biểu-mẫu-bm1---phiếu-khai-báo-tài-sản-nhàn-rỗi)
-  - [Bảng 8. Biểu mẫu BM2 - Phiếu yêu cầu mượn tài sản](#bảng-8-biểu-mẫu-bm2---phiếu-yêu-cầu-mượn-tài-sản)
-  - [Bảng 9. Biểu mẫu BM3 - Biên bản bàn giao thiết bị](#bảng-9-biểu-mẫu-bm3---biên-bản-bàn-giao-thiết-bị)
-  - [Bảng 10. Biểu mẫu BM4 - Biên bản thu hồi và đánh giá hao mòn](#bảng-10-biểu-mẫu-bm4---biên-bản-thu-hồi-và-đánh-giá-hao-mòn)
-  - [Bảng 11. Biểu mẫu BM5 - Phiếu bảo dưỡng / sửa chữa](#bảng-11-biểu-mẫu-bm5---phiếu-bảo-dưỡng--sửa-chữa)
+  - [Bảng 8. Biểu mẫu BM2 - Phiếu yêu cầu mượn tài sản - phần thông tin chung](#bảng-8-biểu-mẫu-bm2---phiếu-yêu-cầu-mượn-tài-sản---phần-thông-tin-chung)
+  - [Bảng 8. Biểu mẫu BM2 - Phiếu yêu cầu mượn tài sản - phần danh sách](#bảng-8-biểu-mẫu-bm2---phiếu-yêu-cầu-mượn-tài-sản---phần-danh-sách)
+  - [Bảng 9. Biểu mẫu BM3 - Biên bản bàn giao thiết bị - phần thông tin chung](#bảng-9-biểu-mẫu-bm3---biên-bản-bàn-giao-thiết-bị---phần-thông-tin-chung)
+  - [Bảng 9. Biểu mẫu BM3 - Biên bản bàn giao thiết bị - phần danh sách](#bảng-9-biểu-mẫu-bm3---biên-bản-bàn-giao-thiết-bị---phần-danh-sách)
+  - [Bảng 10. Biểu mẫu BM4 - Biên bản thu hồi và đánh giá hao mòn - phần thông tin chung](#bảng-10-biểu-mẫu-bm4---biên-bản-thu-hồi-và-đánh-giá-hao-mòn---phần-thông-tin-chung)
+  - [Bảng 10. Biểu mẫu BM4 - Biên bản thu hồi và đánh giá hao mòn - phần danh sách](#bảng-10-biểu-mẫu-bm4---biên-bản-thu-hồi-và-đánh-giá-hao-mòn---phần-danh-sách)
+  - [Bảng 11. Biểu mẫu BM5 - Phiếu bảo dưỡng / sửa chữa - phần thông tin chung](#bảng-11-biểu-mẫu-bm5---phiếu-bảo-dưỡng--sửa-chữa---phần-thông-tin-chung)
+  - [Bảng 11. Biểu mẫu BM5 - Phiếu bảo dưỡng / sửa chữa - phần danh sách](#bảng-11-biểu-mẫu-bm5---phiếu-bảo-dưỡng--sửa-chữa---phần-danh-sách)
   - [Bảng 12. Biểu mẫu BM6 - Hồ sơ đề xuất thanh lý](#bảng-12-biểu-mẫu-bm6---hồ-sơ-đề-xuất-thanh-lý)
 - **Chương 2: Mô Hình UseCase**
   - [Danh sách các UseCase (mục 2.3, bảng không đánh số trong báo cáo)](#danh-sách-các-usecase-mục-23-bảng-không-đánh-số-trong-báo-cáo)
@@ -195,65 +199,87 @@ Gồm **70 bảng có đánh số**, **17 bảng đặc tả Use Case** và **1 
 
 ### Bảng 7. Biểu mẫu BM1 - Phiếu khai báo tài sản nhàn rỗi
 
-| STT | Thông tin | Bắt buộc | Ghi chú |
-|---|---|---|---|
-| 1 | Tên tài sản | Có |   |
-| 2 | Loại tài sản | Có | Chọn từ danh mục, quyết định nhóm thông số riêng |
-| 3 | Số seri | Có | Duy nhất trong hệ thống |
-| 4 | Nguyên giá (VNĐ) | Có | > 0 |
-| 5 | Năm đưa vào sử dụng | Có | 1990 đến năm hiện tại |
-| 6 | Hiện trạng (%) | Có | 0 - 100 |
-| 7 | Vị trí lưu trữ, hình ảnh, mô tả | Không |   |
-| 8 | Thông số riêng theo nhóm | Không | Độ chính xác, chu kỳ kiểm định / CPU, RAM / công suất, phụ kiện |
+| BM1 – PHIẾU KHAI BÁO TÀI SẢN NHÀN RỖI |   |
+|---|---|
+| Đơn vị sở hữu: | Người khai báo: |
+| Tên tài sản (*): |   |
+| Loại tài sản (*): | Số seri (*): |
+| Nguyên giá (VNĐ) (*): | Năm đưa vào sử dụng (*): |
+| Hiện trạng (%) (*): | Vị trí lưu trữ: |
+| Mô tả, hình ảnh: |   |
+| Thông số riêng (độ chính xác, chu kỳ kiểm định / CPU, RAM / công suất, phụ kiện): |   |
+|   |   |
 
-### Bảng 8. Biểu mẫu BM2 - Phiếu yêu cầu mượn tài sản
+### Bảng 8. Biểu mẫu BM2 - Phiếu yêu cầu mượn tài sản - phần thông tin chung
 
-| STT | Thông tin | Bắt buộc | Ghi chú |
-|---|---|---|---|
-| 1 | Người mượn, đơn vị mượn | Có | Tự lấy từ phiên đăng nhập |
-| 2 | Danh sách thiết bị | Có | Một hoặc nhiều thiết bị |
-| 3 | Ngày bắt đầu mượn | Có | Không ở quá khứ |
-| 4 | Ngày hẹn trả | Có | Tối đa 30 ngày kể từ ngày mượn |
-| 5 | Mục đích sử dụng | Có |   |
-| 6 | Ghi chú cho thiết bị | Không |   |
+| BM2 – PHIẾU YÊU CẦU MƯỢN TÀI SẢN |   |
+|---|---|
+| Người mượn: | Đơn vị mượn: |
+| Ngày bắt đầu mượn (*): | Ngày hẹn trả (*): |
+| Mục đích sử dụng (*): |   |
 
-### Bảng 9. Biểu mẫu BM3 - Biên bản bàn giao thiết bị
+### Bảng 8. Biểu mẫu BM2 - Phiếu yêu cầu mượn tài sản - phần danh sách
 
-| STT | Thông tin | Bắt buộc | Ghi chú |
-|---|---|---|---|
-| 1 | Phiếu mượn | Có | Trạng thái Đã duyệt |
-| 2 | Thủ kho giao, cán bộ nhận | Có | Người nhận thuộc đơn vị mượn |
-| 3 | Tình trạng trước khi giao (từng máy) | Có |   |
-| 4 | Lỗi phát hiện khi thử máy | Không | Đánh dấu và mô tả nếu có |
-| 5 | Phụ kiện kèm theo | Không |   |
+| STT | Mã tài sản | Tên thiết bị | Đơn vị sở hữu | Ghi chú |
+|---|---|---|---|---|
+| 1 |   |   |   |   |
+| 2 |   |   |   |   |
 
-### Bảng 10. Biểu mẫu BM4 - Biên bản thu hồi và đánh giá hao mòn
+### Bảng 9. Biểu mẫu BM3 - Biên bản bàn giao thiết bị - phần thông tin chung
 
-| STT | Thông tin | Bắt buộc | Ghi chú |
-|---|---|---|---|
-| 1 | Phiếu mượn | Có | Trạng thái Đang thực hiện |
-| 2 | Thủ kho thu hồi, cán bộ trả | Có |   |
-| 3 | Tình trạng sau (từng máy) | Có | Tốt / Cần bảo trì / Hư hỏng |
-| 4 | Tỷ lệ hao mòn (%) | Có | 0 - 100 |
-| 5 | Mô tả hư hỏng, mức độ thiệt hại (%) | Khi hư hỏng | > 0% |
-| 6 | Ghi chú | Không |   |
+| BM3 – BIÊN BẢN BÀN GIAO THIẾT BỊ |   |
+|---|---|
+| Mã phiếu mượn (*): | Ngày giao: |
+| Thủ kho giao (*): | Cán bộ nhận (*): |
+| Phụ kiện kèm theo: |   |
 
-### Bảng 11. Biểu mẫu BM5 - Phiếu bảo dưỡng / sửa chữa
+### Bảng 9. Biểu mẫu BM3 - Biên bản bàn giao thiết bị - phần danh sách
 
-| STT | Thông tin | Bắt buộc | Ghi chú |
-|---|---|---|---|
-| 1 | Thiết bị | Có | Trạng thái Cần bảo dưỡng |
-| 2 | Đơn vị sửa chữa, nội dung sửa chữa | Có |   |
-| 3 | Hạng mục, linh kiện thay thế, đơn giá, số lượng | Có | Ít nhất một hạng mục; thành tiền tự tính |
-| 4 | Hiện trạng sau sửa (%), kết luận | Khi nghiệm thu | Đạt / Không thể sửa |
+| STT | Mã tài sản | Tên thiết bị | Tình trạng trước khi giao | Lỗi phát hiện khi thử máy |
+|---|---|---|---|---|
+| 1 |   |   |   |   |
+| 2 |   |   |   |   |
+
+### Bảng 10. Biểu mẫu BM4 - Biên bản thu hồi và đánh giá hao mòn - phần thông tin chung
+
+| BM4 – BIÊN BẢN THU HỒI VÀ ĐÁNH GIÁ HAO MÒN |   |
+|---|---|
+| Mã phiếu mượn (*): | Ngày thu hồi: |
+| Thủ kho thu hồi (*): | Cán bộ trả (*): |
+| Ghi chú: |   |
+
+### Bảng 10. Biểu mẫu BM4 - Biên bản thu hồi và đánh giá hao mòn - phần danh sách
+
+| STT | Mã tài sản | Tình trạng sau | Hao mòn (%) | Mô tả hư hỏng | Thiệt hại (%) |
+|---|---|---|---|---|---|
+| 1 |   |   |   |   |   |
+| 2 |   |   |   |   |   |
+
+### Bảng 11. Biểu mẫu BM5 - Phiếu bảo dưỡng / sửa chữa - phần thông tin chung
+
+| BM5 – PHIẾU BẢO DƯỠNG / SỬA CHỮA |   |
+|---|---|
+| Mã tài sản (*): | Ngày gửi sửa: |
+| Đơn vị sửa chữa (*): |   |
+| Nội dung sửa chữa (*): |   |
+| Hiện trạng sau sửa (%): | Kết luận (Đạt / Không thể sửa): |
+
+### Bảng 11. Biểu mẫu BM5 - Phiếu bảo dưỡng / sửa chữa - phần danh sách
+
+| STT | Hạng mục sửa chữa | Linh kiện thay thế | Đơn giá | Số lượng | Thành tiền |
+|---|---|---|---|---|---|
+| 1 |   |   |   |   |   |
+| 2 |   |   |   |   |   |
 
 ### Bảng 12. Biểu mẫu BM6 - Hồ sơ đề xuất thanh lý
 
-| STT | Thông tin | Bắt buộc | Ghi chú |
-|---|---|---|---|
-| 1 | Thiết bị | Có | Không đang mượn, không đang bảo dưỡng, đã kiểm nhận |
-| 2 | Lý do đề xuất | Có |   |
-| 3 | Số quyết định, ý kiến chỉ đạo | Khi phê duyệt | Lãnh đạo nhập |
+| BM6 – HỒ SƠ ĐỀ XUẤT THANH LÝ |   |
+|---|---|
+| Mã tài sản (*): | Ngày đề xuất: |
+| Người đề xuất: |   |
+| Lý do đề xuất (*): |   |
+| Căn cứ (*):  ☐ Hết niên hạn    ☐ Chi phí sửa ≥ 70% nguyên giá    ☐ Không thể sửa |   |
+| Số quyết định: | Ý kiến lãnh đạo: |
 
 ---
 
